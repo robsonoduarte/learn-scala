@@ -5,9 +5,10 @@ Learning Scala Language
 
   > The projects are separte by topic of language, **topcis are**:
   _____________________________________________________________  
-     * Higher Order Functions  
-     * Packages and Imports
+     * Higher Order Functions 
      * Objects
+     * Packages and Imports
+     
      
      
 
