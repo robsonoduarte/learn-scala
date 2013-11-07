@@ -3,7 +3,7 @@ Learning Scala Language
 
 > This Repository contains projects about the Scala Language.
 
-  > The projects are separte by topic of language, topcis are:
+  > The projects are separte by topic of language, **topcis are**:
   _____________________________________________________________  
      * Higher Order Functions  
      * Packages and Imports
