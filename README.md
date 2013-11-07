@@ -8,7 +8,6 @@ _____________________________________________________________
      >> in constrution....
 
 
-* All projects in here repo are based in this book:
-  
-   ---------------------------------------------------------------------------------------------------
-    >  Scala for the Impatient by Cay Horstmann
+> All projects in here repo are based in this book:
+  ___________________________________________________  
+    Scala for the Impatient by Cay Horstmann
