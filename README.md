@@ -5,7 +5,12 @@ Learning Scala Language
 
   > The projects are separte by topic of language, **topcis are**:
   _____________________________________________________________  
+     * Arrays
+     * Classes
+     * Control Structures and functions 
      * Higher Order Functions 
+     * Inheritance
+     * Maps and Tuples
      * Objects
      * Packages and Imports
      
