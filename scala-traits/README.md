@@ -1,5 +1,5 @@
-scala-objects
+scala-traits
 =============
 
-Project for studies about scala's objects.
+Project for studies about scala's traits.
 
