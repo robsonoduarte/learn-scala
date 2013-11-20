@@ -12,14 +12,14 @@ object Main extends App {
   
   def values(func: Int => Int, low: Int, high: Int){
 	  
-	  var x = new HashMap[Int, Int]
+	  var x = ArrayBuffer.empty[(Int, Int)]
 	  
-	  for( i <- low to high ){	   
-		  x +=  i -> func(high)
-	  }
-    
-	  print(x)
-   
+	  
+	  for( i <- low to high ){		    
+		  x +=  i -> func(i)
+	  } 
+	  
+	  print(x)   
   }
   
   
