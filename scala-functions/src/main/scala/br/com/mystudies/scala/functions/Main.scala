@@ -19,20 +19,30 @@ object Main extends App {
 		  x +=  i -> func(i)
 	  } 
 	  
-	  print(x)   
+	  println(x)   
   }
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+ 
   values(x => x * x  , -5, 5)
+ 
 
+  
+  
+  
+  (1 to 9).map(x => 10 * x).foreach(x => println(x))
+  (1 to 9).map(10 * _).foreach(println _)  
+  
+  
+  (1 to 9).map("*" * _).foreach(println _)
+  
+   println((1 to 9).reduceLeft(_+_))
+  
+  
+  
+  
+/*   def values2(func:(Int, Int) => Int){	  	     
+  }*/
+ 
+  
+  
   
 }
