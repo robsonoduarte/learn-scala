@@ -37,6 +37,8 @@ object Main extends App {
    println((1 to 9).reduceLeft(_+_))
   
   
+   
+   
   
   
 /*   def values2(func:(Int, Int) => Int){	  	     
