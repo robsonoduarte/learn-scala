@@ -13,7 +13,7 @@ object FunctionWithFunctionParameters extends App {
    valueAtOneQuarter(ceil)
 
 
-   // DEF A FUNCTION WITH RETURN OTHER FUNCTION
+   // DEF A FUNCTION THAT RETURN OTHER FUNCTION
    def mulBy(factor: Double) = (x: Double) => println(factor * x)
 
 
