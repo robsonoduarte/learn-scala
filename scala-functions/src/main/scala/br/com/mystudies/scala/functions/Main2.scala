@@ -12,13 +12,13 @@ object Main2 extends App {
   def largest(x: Int, y: Int) :Int = { if( y > x) y else x } 
   
   
-  println( (1 to 50).reduceLeft(largest))
-  println( (1 to 50).reduceLeft( (x: Int, y: Int) => if( y > x) y else x ))
-//  println( (1 to 50).reduceLeft( (if( _ > _) _ else _ ))
+  println((1 to 50).reduceLeft(largest))
+  print((1 to 8))
   
+ 
+   
+  println((0 to 2).reduceLeft((x: Int, y: Int) => (x) + (y)))
   
-  println( (1 to 50).reduceLeft( (x: Int, y: Int) =>  x * y))  
-  println( (1 to 50).reduceLeft(_*_))
-
+      //1 1 2 3 5 8 13 21...
   
-}
+ }
