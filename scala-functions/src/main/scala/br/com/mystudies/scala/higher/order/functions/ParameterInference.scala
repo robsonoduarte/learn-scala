@@ -1,4 +1,4 @@
-package br.com.mystudies.scala.functions
+package br.com.mystudies.scala.higher.order.functions
 
 object ParameterInference extends App {
 
@@ -22,6 +22,5 @@ object ParameterInference extends App {
    // OK because the type is specified  (Double) => Double
    val fun2:  (Double) => Double = 3 * _
    trible { fun2 }
-
 
 }

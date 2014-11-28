@@ -1,4 +1,4 @@
-package br.com.mystudies.scala.functions
+package br.com.mystudies.scala.higher.order.functions
 import scala.math._
 
 object FunctionWithFunctionParameters extends App {
