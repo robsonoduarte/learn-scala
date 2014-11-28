@@ -1,7 +1,7 @@
 scala-functions
 ======================
 
-> Project for studies Higher-Order Functions in Scala.
+> Project for studies Functions and Higher-Order Functions in Scala.
 
 
 . For one simple comparison Java/Scala and Java Evolution see:

@@ -4,7 +4,7 @@ import scala.math._
 object FunctionWithFunctionParameters extends App {
 
 
-    // DEF A FUNCTION WITH RECEIVING ONE FUNCTION AND USE IT
+    // DEF A FUNCTION THAT RECEIVING ONE FUNCTION AND USE IT
    def valueAtOneQuarter(f: Double => Double) = println(f(0.25))
 
 
