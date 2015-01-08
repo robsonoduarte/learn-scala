@@ -34,4 +34,14 @@ object UsefulHigherOrderFunctions extends App {
   //minimal syntax
   (1 to 9) map ("*" * _) foreach (println _)
 
+
+
+  // Using a binary function ( a function with two parameters )
+
+  // full syntax
+  println((1 to 9) reduceLeft ((x: Int, y: Int )  => x * y ))
+
+  // minimal syntax
+  println((1 to 9) reduceLeft (_ * _) )
+
 }
