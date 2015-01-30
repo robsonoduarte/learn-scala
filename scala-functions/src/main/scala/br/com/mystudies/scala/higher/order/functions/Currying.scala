@@ -8,6 +8,6 @@ object Currying extends App {
 
   println(mulOneAlTime(6)(7))
 
-
+  // TODO: go back this item after of make exercises
 
 }
