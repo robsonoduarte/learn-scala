@@ -66,15 +66,10 @@ object UsefulHigherOrderFunctions extends App {
 
 
 
+  def f(x: Int) = (1 to x).foldLeft(1)(_ * _)
 
-
-
-
-
-
-
-
-
+  println(f(0))
+  println(f(6))
 
 
 }
