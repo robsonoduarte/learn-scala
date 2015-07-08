@@ -44,4 +44,37 @@ object UsefulHigherOrderFunctions extends App {
   // minimal syntax
   println((1 to 9) reduceLeft (_ * _) )
 
+
+
+
+
+
+  def max(x: Array[Int]) = x reduceLeft( (x: Int, y: Int) =>  if(y>x) y else x)
+
+  println(max(Array(1, 5 -1, 5 , 20 , -20 , 30)))
+
+
+
+  //  factorial
+
+  def factorial(x: Int) = if( x < 1) 1 else ( 1 to x ) reduceLeft (_ * _)
+
+  println(factorial(0)) // 1
+  println(factorial(6)) // (((((1*2)*3)*4)*5)*6)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
