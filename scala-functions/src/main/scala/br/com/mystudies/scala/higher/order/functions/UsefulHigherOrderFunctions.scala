@@ -74,12 +74,21 @@ object UsefulHigherOrderFunctions extends App {
 
 
 
-
+  // function receiving one function and apply It in another function
   def largest(fun: (Int) => Int, inputs: Seq[Int]) = inputs map(fun) max
-
 
   println(largest(x => 10 * x - x * x,  1 to 10))
 
+
+
+
+
+
+  // ex 6
+  /*def largestAt(fun: (Int) => Int, inputs: Seq[Int]) = inputs reverseMap(fun) max
+
+  println(largestAt( x => 10 * x - x * x,  1 to 10) )
+*/
 
 
 
