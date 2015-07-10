@@ -91,8 +91,24 @@ object UsefulHigherOrderFunctions extends App {
 */
 
 
+
+
+
+  // def. one function witch receive tuple
+  def adjustToPair(ab: (Int, Int)): Int = ab match { case (a,b) =>  a + b }
+
+
+  // create one vector of tuple using the zip
   var pair  = 1 to 10 zip (11 to 20)
+
+
   println(pair)
+  // for each tuple apply the function
+  println(pair.map(adjustToPair _))
+
+
+
+
 
 
 }
