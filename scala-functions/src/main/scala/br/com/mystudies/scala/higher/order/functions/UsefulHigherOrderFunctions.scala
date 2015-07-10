@@ -116,9 +116,13 @@ object UsefulHigherOrderFunctions extends App {
 
 
 
+  // def. one function with receive another function will be apply in the tuple
   def f (a: (Int, Int) => Int) = Function.tupled(a)
+
+  // direct in tuple
   println(f(_*_)(1,2))
 
+  // map tuple and apply the function
   println(pair.map(f(_*_)))
 
 
