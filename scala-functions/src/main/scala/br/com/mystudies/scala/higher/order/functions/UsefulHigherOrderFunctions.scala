@@ -107,6 +107,19 @@ object UsefulHigherOrderFunctions extends App {
   println(pair.map(adjustToPair _))
 
 
+  // apply direct in tuple
+  println(adjustToPair(1,2))
+
+
+
+
+
+
+
+  def f (a: (Int, Int) => Int) = Function.tupled(a)
+  println(f(_*_)(1,2))
+
+  println(pair.map(f(_*_)))
 
 
 
