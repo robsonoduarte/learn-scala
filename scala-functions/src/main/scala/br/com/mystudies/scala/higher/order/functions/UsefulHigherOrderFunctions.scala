@@ -116,7 +116,8 @@ object UsefulHigherOrderFunctions extends App {
 
 
 
-  // def. one function with receive another function will be apply in the tuple
+  // def. one
+
   def f (a: (Int, Int) => Int) = Function.tupled(a)
 
   // direct in tuple
@@ -126,6 +127,28 @@ object UsefulHigherOrderFunctions extends App {
   println(pair.map(f(_*_)))
 
 
+
+
+
+
+  // example of use currying in function
+
+  val a = Array("Hello", "World")
+  val b = Array("hello", "world")
+
+  val x = a.corresponds(b)(_.equalsIgnoreCase(_))
+
+  println(x)
+
+
+
+  val z = Array("Robson", "Duarte")
+  val y = Array(6,8)
+
+
+  val w = z.corresponds(y)(_.length == _)
+
+  print(w)
 
 
 }
