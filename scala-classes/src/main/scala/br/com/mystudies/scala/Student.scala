@@ -1,5 +1,5 @@
 package br.com.mystudies.scala
-import scala.reflect.BeanProperty
+import scala.beans.BeanProperty
 
 class Student {
 
