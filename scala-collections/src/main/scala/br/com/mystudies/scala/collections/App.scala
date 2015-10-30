@@ -10,17 +10,26 @@ object App extends App {
   
  
   
+  
+  
+  
+  "Robson" foreach( c => println( "Robson".indexOf(c)))
+  
+  
+  
+  
+  
   def fun(world : String ){
     
     /*var map = HashMap.empty[Int, Char]*/
     
     
     
-    var x = world.map( world indexOf _ )
+    /*var x = world.map( world indexOf _ )
     
 
     print(x)
-    
+*/    
     
 /*    world foreach { c => map += ( world.indexOf(c) -> c )
       
