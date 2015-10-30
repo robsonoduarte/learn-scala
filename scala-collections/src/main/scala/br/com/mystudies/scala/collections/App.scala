@@ -12,13 +12,23 @@ object App extends App {
   
   def fun(world : String ){
     
-    var map = HashMap.empty[Int, Char]
+    /*var map = HashMap.empty[Int, Char]*/
     
     
-    world foreach { c => map += ( world.indexOf(c) -> c ) }  
+    
+    var x = world.map( world indexOf _ )
+    
+
+    print(x)
+    
+    
+/*    world foreach { c => map += ( world.indexOf(c) -> c )
+      
+        println(map)
+     }  
     
     map
-    
+*/    
   }
   
   
