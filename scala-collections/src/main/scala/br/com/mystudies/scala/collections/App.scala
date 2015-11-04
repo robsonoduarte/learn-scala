@@ -15,11 +15,18 @@ object App extends App {
   def fun(world : String ){
       println(world groupBy ( x => world.indexOf(x) ) )    
       println( world indices )
-      println( world toSet )
+      println( world toSet  )
+      println( world zipWithIndex )
+      
+      val x = world zipWithIndex;
+      
+      
+      println(x)
+      
   }
   
   
-   fun("Robson")
+   fun("ROBSON")
  
   
 }
