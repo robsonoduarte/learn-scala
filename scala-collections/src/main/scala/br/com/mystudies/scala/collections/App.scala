@@ -10,6 +10,7 @@ object App extends App {
 
   
   
+  
   def indexes1(world : String ) = {
      var map =  HashMap.empty[Char, HashSet[Int]];     
      world foreach( c => {
