@@ -7,35 +7,24 @@ import scala.collection.mutable.HashMap
 
 object App extends App {
   
-  
-  //List(1, 2, 3, 4 ) foreach { println _}
-  
-  
- 
 
-  def fun(world : String ){
-  }
   
   
-  
-  
-  def indexes(world : String ){
-    
-     var map =  HashMap.empty[Char, HashSet[Int]];
-    
-     
+  def indexes1(world : String ) = {
+     var map =  HashMap.empty[Char, HashSet[Int]];     
      world foreach( c => {
         map getOrElseUpdate(c, new HashSet) += world.indexOf(c)  
-     })
-     
-     print(map)
+     })     
+     map
   }
     
   
-  
-    indexes("ROBSON")
+   print(indexes1("ROBSON OLIVEIRA DUARTE"))
  
-    
+  
+   
+   
+   
   
 }
 
