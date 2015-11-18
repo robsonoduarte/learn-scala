@@ -21,12 +21,9 @@ object App extends App {
     
   
    print(indexes1("ROBSON OLIVEIRA DUARTE"))
- 
-  
-   
-   
    
   
+   
 }
 
   
