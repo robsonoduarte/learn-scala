@@ -19,12 +19,13 @@ object App extends App {
   
   
   
-  def index(world : String ){
+  def indexes(world : String ){
     
      var map =  HashMap.empty[Char, HashSet[Int]];
     
-     world.foreach( c => {
-        map.getOrElseUpdate(c, new HashSet) += world.indexOf(c)
+     
+     world foreach( c => {
+        map getOrElseUpdate(c, new HashSet) += world.indexOf(c)  
      })
      
      print(map)
@@ -32,8 +33,9 @@ object App extends App {
     
   
   
-  index("ROBSON")
+    indexes("ROBSON")
  
+    
   
 }
 
