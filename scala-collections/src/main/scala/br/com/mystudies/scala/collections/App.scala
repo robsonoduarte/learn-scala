@@ -1,8 +1,9 @@
 package br.com.mystudies.scala.collections
 
-import java.util.Hashtable
-import scala.collection.mutable.HashTable
-import scala.collection.immutable.HashMap
+
+
+import scala.collection.mutable.HashSet
+import scala.collection.mutable.HashMap
 
 object App extends App {
   
@@ -13,20 +14,32 @@ object App extends App {
  
 
   def fun(world : String ){
-      println(world groupBy ( x => world.indexOf(x) ) )    
+/*      println(world groupBy ( x => world.indexOf(x) ) )    
       println( world indices )
       println( world toSet  )
       println( world zipWithIndex )
       
       val x = world zipWithIndex;
-      
-      
-      println(x)
-      
+           
+      println(x)      */
   }
   
   
-   fun("ROBSON")
+  
+  def fun2(world : String ){
+    
+     var map =  HashMap.empty[Char, HashSet[Int]];
+    
+     world.foreach( c => {
+        map.getOrElseUpdate(c, new HashSet) += world.indexOf(c)
+     }) 
+     
+     print(map)
+  }
+    
+  
+  
+   fun2("ROBSON")
  
   
 }
