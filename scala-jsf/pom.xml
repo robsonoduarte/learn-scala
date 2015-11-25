@@ -47,7 +47,7 @@
             </goals>
             <configuration>
               <args>
-                <arg>-make:transitive</arg>
+                <!-- <arg>-make:transitive</arg> -->
                 <arg>-dependencyfile</arg>
                 <arg>${project.build.directory}/.scala_dependencies</arg>
               </args>
@@ -72,4 +72,5 @@
       </plugin>
     </plugins>
   </build>
+  <packaging>war</packaging>
 </project>
