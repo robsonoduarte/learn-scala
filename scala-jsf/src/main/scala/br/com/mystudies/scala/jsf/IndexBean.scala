@@ -3,7 +3,7 @@ package br.com.mystudies.scala.jsf
 import javax.faces.bean.ManagedBean
 import scala.beans.BeanProperty
 
-@ManagedBean
+@ManagedBean // jsf anotation 
 class IndexBean {
   
   
