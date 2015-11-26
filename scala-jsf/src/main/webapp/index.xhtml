@@ -13,7 +13,13 @@
 </head>
 
 <body>
-<h3><h:outputText value="Index" /></h3>
-<p><h:outputText value="Index" /></p>
+<h:form>
+	<h:outputText value="#{indexBean.message}" />
+	<h:outputText value="#{indexBean.name}" />
+	<br/><br/>
+	<h:commandButton action="#{indexBean.action}" value="Action" />
+	<br/><br/>
+	<h:commandButton action="#{indexBean.navigate}" value="Navigate" />
+</h:form>
 </body>
 </html>
