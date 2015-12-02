@@ -10,22 +10,46 @@ import scala.collection.immutable.Map
 object App2 extends App {
    
   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   def mkString(list: List[String]) = {
+      list.reduceLeft(_+_)
+   }
+   
+   
+   println(List("Tom", "Fred", "Robson"))
+   
+   
+   
+   
+   
+   
+   
+   
+   
   
-  
+  //-------------------------------------------------------------------------------------
+   
+   
+   
   
   def func(list: List[String], map : Map[String, Int]) = {
-		  list flatMap( s => map.get(s))         		    
-       /*list flatMap(map get)*/         
-                
+		  // list flatMap( s => map.get(s))         		    
+       list flatMap(map get)                         
   }
+  
   
   
   println(func(List("Tom", "Fred", "Robson"), Map( "Tom" -> 1, "Zica" -> 3, "Robson" -> 4)))
   
 
-      
-      
-      
   
 
   
