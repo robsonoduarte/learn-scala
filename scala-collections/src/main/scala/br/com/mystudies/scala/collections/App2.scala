@@ -24,7 +24,8 @@ object App2 extends App {
    }
    
    
-   println(List("Tom", "Fred", "Robson"))
+   println(mkString( List("Tom", "Fred", "Robson")))
+   println(List("Tom", "Fred", "Robson").mkString)
    
    
    
