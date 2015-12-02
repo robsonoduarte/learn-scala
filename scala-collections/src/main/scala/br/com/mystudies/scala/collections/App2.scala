@@ -14,7 +14,9 @@ object App2 extends App {
   
   
   def func(list: List[String], map : Map[String, Int]) = {
-       list flatMap(map get)         
+		  list flatMap( s => map.get(s))         		    
+       /*list flatMap(map get)*/         
+                
   }
   
   
