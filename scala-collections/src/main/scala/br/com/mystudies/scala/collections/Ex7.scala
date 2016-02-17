@@ -12,4 +12,9 @@ object Ex7 extends App {
    println( ((prices zip quantities) map {p => p._1 * p._2}) sum)
 
 
+
+  //  var f = new Function2[]
+   // http://stackoverflow.com/questions/2354277/function-tupled-and-placeholder-syntax
+
+
 }
