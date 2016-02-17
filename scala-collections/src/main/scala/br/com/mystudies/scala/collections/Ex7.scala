@@ -13,8 +13,21 @@ object Ex7 extends App {
 
 
 
-  //  var f = new Function2[]
-   // http://stackoverflow.com/questions/2354277/function-tupled-and-placeholder-syntax
+   /*println( ((prices zip quantities) map { (_ * _).tupled }) sum)*/
+
+
+
+
+
+
+   /*var f = new Function2[Int, Int, Int]{
+		   def apply(x: Int, y: Int): Int = if (x < y) y else x
+    }
+
+
+   println( ((prices zip quantities) map {f.tupled) sum)*/
+
+
 
 
 }
