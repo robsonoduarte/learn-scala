@@ -12,22 +12,14 @@ object Ex7 extends App {
    println( ((prices zip quantities) map {p => p._1 * p._2}) sum)
 
 
+   
+   // http://daily-scala.blogspot.com.br/2009/11/function.html
 
-   /*println( ((prices zip quantities) map { (_ * _).tupled }) sum)*/
+   def twoParamFunc ( x: Int, y: Int )  = print ( x, y )  
 
-
-
-
-
-
-   /*var f = new Function2[Int, Int, Int]{
-		   def apply(x: Int, y: Int): Int = if (x < y) y else x
-    }
-
-
-   println( ((prices zip quantities) map {f.tupled) sum)*/
-
-
+   val tuple = Function tupled twoParamFunc _
+   
+   print ( tuple (1 -> 1))
 
 
 }
