@@ -13,18 +13,14 @@ object Ex7 extends App {
 
 
 
-   // http://daily-scala.blogspot.com.br/2009/11/function.html
-
-   def twoParamFunc ( x: Double, y: Double )  = x * y
-
-   val tuple = Function tupled twoParamFunc _
-
-   print ( tuple (1.0 -> 2.0))
 
 
+   //using te tupled to take the tuple and return o function one parameter
+   println( ((prices zip quantities) map {Function.tupled(_*_)}) )
 
-//   println( ((prices zip quantities) map {tuple _}) )
 
+   // unsing the zipped method and map of Tuple2Zipped than your map take on tuple
+   println((prices,quantities).zipped map (_*_))
 
 
 
