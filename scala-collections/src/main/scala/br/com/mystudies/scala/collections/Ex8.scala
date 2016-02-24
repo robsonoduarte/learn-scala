@@ -2,21 +2,14 @@ package br.com.mystudies.scala.collections
 
 object Ex8 extends App {
 
-
-
-
-  def func( a: Array[Int], coluns : Int) = {
-     a grouped(coluns)
+  def func( a: Array[Int], columns : Int) = {
+     a grouped(columns) toArray
   }
 
 
+  var a = Array(1,2,3,4)
 
 
-
-
-
-  func(Array(1,2,3), 2).foreach { x => x.foreach(println _)}
-
-
+  func(a, 2)
 
 }
