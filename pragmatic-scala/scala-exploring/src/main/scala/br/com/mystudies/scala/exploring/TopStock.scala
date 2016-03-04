@@ -1,4 +1,4 @@
-package br.com.mystudies.scala.collections
+package br.com.mystudies.scala.exploring
 
 object TopStock extends App {
 
