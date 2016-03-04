@@ -1,6 +1,6 @@
 package br.com.mystudies.scala.exploring
 
-object TopStock extends App {
+object TopStockPar extends App {
 
 
   val simbols = List("AMD", "AAPL", "AMZN", "IBM", "ORCL", "MSFT");
@@ -10,33 +10,11 @@ object TopStock extends App {
 
   val now = System nanoTime
 
-  val (topStock, topPrice) =
-      simbols map { ticker => (ticker, getYearEndClosingPrice(ticker, year)) } maxBy { stockPrice => stockPrice._2 }
+  val (topStock, topPrice) = simbols.par.map { ticker => (ticker, getYearEndClosingPrice(ticker, year)) } maxBy { stockPrice => stockPrice._2 }
+
 
 
   println( ( (System.nanoTime  -  now ) / 1000 ) / 1000)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  printf(s"Top stock of $year is $topStock closing at price $$$topPrice")
-
-
-
-
-
-
-
 
 
 
@@ -63,6 +41,7 @@ object TopStock extends App {
 
 
 
+  printf(s"Top stock of $year is $topStock closing at price $$$topPrice")
 
 
 }
