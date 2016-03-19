@@ -1,5 +1,10 @@
 package br.com.mystudies.scala.exploring
 
+
+import java.lang.Integer.MIN_VALUE
+import java.lang.Math.max
+
+
 object FP extends App {
 
 
@@ -24,7 +29,7 @@ object FP extends App {
   def findMaxFunctional(temperatures: List[Int]) = {
       // one complete form
      // temperatures.foldLeft(Integer.MIN_VALUE)((a,b) => Math.max(a, b))
-      temperatures.foldLeft(Integer.MIN_VALUE){Math.max}
+      temperatures.foldLeft(MIN_VALUE){max}
   }
 
 
