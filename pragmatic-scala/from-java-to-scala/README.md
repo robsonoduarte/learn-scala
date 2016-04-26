@@ -1,4 +1,4 @@
-Exploring Scala
+From Java to Scala
 ======================
 
 
