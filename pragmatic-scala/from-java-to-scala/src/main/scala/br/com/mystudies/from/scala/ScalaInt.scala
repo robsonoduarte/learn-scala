@@ -3,7 +3,7 @@ package br.com.mystudies.from.scala
 object ScalaInt {
 
 
-  // example of Scala classe for java primitives
+  // example of Scala class for java primitives
   val capacity : Int = 10
   val list = new java.util.ArrayList[String]
 
