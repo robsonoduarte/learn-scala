@@ -1,22 +1,16 @@
-Learning Scala Language
+Pragmatic Scala
 =======================
 
-> This Repository contains projects about the Scala Language.
+> Create Expressive, Concise, and Scalable Applications.
 
-  > The projects are separte by topic of language, **topcis are**:
-  _____________________________________________________________  
-     * Arrays
-     * Classes
-     * Control Structures and functions 
-     * Higher Order Functions 
-     * Inheritance
-     * Maps and Tuples
-     * Objects
-     * Packages and Imports
-     
-     
-     
+  > The projects are separate by topic of language, **topcis are**:
+  _____________________________________________________________
+     * Exploring Scala / Taking Scala for a Ride
+     * From Java to Scala
 
-   > **All projects in here repo are based in this book:**
-  ___________________________________________________  
-    Scala for the Impatient by Cay Horstmann
+
+
+
+   > **All projects in here repo are based in the examples of this book:**
+  ___________________________________________________
+    Pragmatic Scala by Venkat Subramaniam
