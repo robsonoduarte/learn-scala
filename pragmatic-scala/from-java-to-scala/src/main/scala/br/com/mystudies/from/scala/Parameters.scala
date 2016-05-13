@@ -19,7 +19,7 @@ object Parameters extends App {
     val numbers = Array(1,2,3,4,5)
     //max(numbers) -> the error of type incompatibility the parameter is Int not Array
 
-    // but we can passa the array using the explode notation
+    // but we can pass the array using the explode notation
     max(numbers: _*)
 
 
