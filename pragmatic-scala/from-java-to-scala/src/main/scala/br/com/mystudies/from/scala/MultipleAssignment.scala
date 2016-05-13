@@ -8,6 +8,10 @@ object MultipleAssignment extends App {
   }
 
 
+
+
+
+
   val (firstName, lastName, email) = getPersonInfo(1)
 
 
@@ -16,4 +20,8 @@ object MultipleAssignment extends App {
   println(s"Email : $email")
 
 
+
+  // the compile error because the number of vals is less and fewer than return of getPersonInfo()
+  //val (x, y) = getPersonInfo(1)
+  //val (z,y,x,k) = getPersonInfo(1)
 }
