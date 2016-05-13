@@ -1,6 +1,6 @@
 package br.com.mystudies.from.scala
 
-object MultipleAssgnment extends App {
+object MultipleAssignment extends App {
 
 
   def getPersonInfo(key: Int) = {
