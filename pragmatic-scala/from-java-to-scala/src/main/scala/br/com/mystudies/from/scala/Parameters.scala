@@ -33,5 +33,11 @@ object Parameters extends App {
     mail("Houston office", "Priority")
     mail("Boston office")
     mail()
+    mail("Priority") // -> scala's compiler using the position parameters to substitute the default value
+
+    // but we can use the named arguments to resolve the problem above
+    mail(mailClass = "Priority")
+    mail(mailClass = "Priority", destination = "São Paulo Office")
+
 
 }
