@@ -23,4 +23,15 @@ object Parameters extends App {
     max(numbers: _*)
 
 
+
+
+    // Providing Default Values for Parameters
+
+    def mail(destination: String = "head office", mailClass : String = "first") = println(s"sending to $destination by $mailClass class")
+
+
+    mail("Houston office", "Priority")
+    mail("Boston office")
+    mail()
+
 }
