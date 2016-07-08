@@ -26,7 +26,6 @@ object ImplicitParameters extends App{
 		  connectToNetwork("Duarte")
   }
 
-
   atOffice
   atRobsonHome
 
