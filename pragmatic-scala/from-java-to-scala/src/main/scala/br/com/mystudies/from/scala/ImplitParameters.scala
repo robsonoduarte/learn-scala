@@ -18,8 +18,17 @@ object ImplicitParameters extends App{
 
 
 
-  atOffice
+  def atRobsonHome = {
+		  println("--- at Robson office ---")
+		  implicit def homeNetwork = new Wifi("home-network")
 
+		  connectToNetwork("Robson")(homeNetwork)
+		  connectToNetwork("Duarte")
+  }
+
+
+  atOffice
+  atRobsonHome
 
 }
 
