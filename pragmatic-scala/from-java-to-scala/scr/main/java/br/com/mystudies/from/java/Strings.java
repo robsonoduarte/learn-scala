@@ -10,5 +10,8 @@ public class Strings {
 				+ "\nsee Java SE.Not to be confused with JavaScript.";
 
 		System.out.println(str);
+
+
+
 	}
 }
