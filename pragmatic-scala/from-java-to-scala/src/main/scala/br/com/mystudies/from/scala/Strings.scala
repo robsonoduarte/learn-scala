@@ -30,4 +30,15 @@ object String extends App{
   println("Scalas".matches(regex))
 
 
+
+
+  // Interpolation
+
+  val discount = 50
+
+
+  val message = s"A discount of $discount has been applied"
+
+  print(message)
+
 }
