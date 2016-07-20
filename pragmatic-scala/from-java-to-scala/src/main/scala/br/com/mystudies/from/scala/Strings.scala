@@ -34,11 +34,47 @@ object String extends App{
 
   // Interpolation
 
-  val discount = 50
-
+  val discount = 50.00
 
   val message = s"A discount of $discount has been applied"
 
-  print(message)
+  println(message)
+
+
+
+
+ // using the curly brace for more complex expression and use the $ sign in string
+
+ var price = 90
+ val totalPrice = s"The amount of discount is $$${price * discount / 100} dollars"
+
+ println(totalPrice)
+
+
+
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
