@@ -42,14 +42,12 @@ object String extends App{
 
 
 
-
  // using the curly brace for more complex expression and use the $ sign in string
 
  var price = 90
  val totalPrice = s"The amount of discount is $$${price * discount / 100} dollars"
 
  println(totalPrice)
-
 
 
 
