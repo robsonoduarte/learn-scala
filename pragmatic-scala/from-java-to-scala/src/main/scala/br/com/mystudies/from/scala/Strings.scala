@@ -48,6 +48,17 @@ object String extends App {
   
   
   
+  def mutable ={
+    val discount = 10
+    var price = 100  //using the mutable variable interpolation
+    val totalPrice = s"The amount after discount is $$${price *(1 - discount / 100.0)} dollars"
+    println(totalPrice)
+    
+    price = 50 // change after interpolation 
+    println(totalPrice) // but the result is the same because the expression was captured at the time of interpolation 
+    
+  }
+  
   
   
   
@@ -66,7 +77,7 @@ object String extends App {
   regex
   interpolation
   complex
-  
+  mutable
   
   
 }
