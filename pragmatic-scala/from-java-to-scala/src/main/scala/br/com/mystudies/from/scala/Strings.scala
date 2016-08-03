@@ -61,6 +61,13 @@ object String extends App {
   
   
   
+  def format ={
+    // using the f-interpolator to format
+    val procuct = "ticket"
+    val price = 25.12
+    val discount = 10
+    println(f"On $procuct $discount%% saves $$${price * discount / 100.00}%2.2f")
+  }
   
   
   
@@ -78,6 +85,7 @@ object String extends App {
   interpolation
   complex
   mutable
+  format
   
   
 }
