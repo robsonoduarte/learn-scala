@@ -17,7 +17,15 @@ object OperatorOverloading extends App {
 
 class Complex(val real: Int, val imaginary: Int){
   def +(operand: Complex) ={
+    print("Calling +")
     new Complex(real + operand.real, imaginary + operand.imaginary)
+  }
+  
+  
+  def *(operand: Complex) ={
+		  print("Calling *")
+		  new Complex(real * operand.real - imaginary * operand.imaginary, 
+		        real * operand.imaginary + imaginary * operand.real)
   }
   
   
