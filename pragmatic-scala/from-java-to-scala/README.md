@@ -1,7 +1,7 @@
 From Java to Scala
 ======================
 
-Examples of the chapter 3
+Examples of the chapter 3.
 
 
 
