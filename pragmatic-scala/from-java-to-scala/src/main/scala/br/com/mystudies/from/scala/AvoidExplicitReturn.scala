@@ -1,6 +1,6 @@
 package br.com.mystudies.from.scala
 
-object AvoidExplictReturn extends App{
+object AvoidExplicitReturn extends App{
 
 	def check1 = true
   def check2: Boolean = true
