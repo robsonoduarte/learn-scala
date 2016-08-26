@@ -1,7 +1,7 @@
 From Java to Scala
 ======================
 
-Examples of the chapter 3.
+**Quick drive through Scala from the perspective of Java Programmers.**
 
 
 
