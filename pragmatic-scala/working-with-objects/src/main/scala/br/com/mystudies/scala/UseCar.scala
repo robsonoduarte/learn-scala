@@ -13,7 +13,7 @@ object UseCar extends App {
 }
 
 
-
+// see Car.java to comparison
 class Car(val year: Int){
   private var milesDriven : Int = 0
   def miles = milesDriven
