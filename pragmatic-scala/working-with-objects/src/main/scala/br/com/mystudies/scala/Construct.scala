@@ -15,7 +15,6 @@ class Person(val firstName: String, val lastName: String){
   }
 
   override def toString = s"$firstName $lastName holds $position position"
-
 }
 
 
@@ -30,5 +29,4 @@ object Run extends App{
 
     var ana = new Person("Ana", "Duarte")
     println(ana)
-
 }
