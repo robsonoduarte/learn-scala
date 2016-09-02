@@ -25,7 +25,6 @@ object Run extends App{
     println("Let's create an instance")
     new Construct("sample")
 
-
     var robson = new Person("Robson", "Duarte", "Programmer")
     println(robson)
 
