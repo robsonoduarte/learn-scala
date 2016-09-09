@@ -19,3 +19,19 @@ object Run2 extends App  {
   println(dude)
 
 }
+
+/*javap -p Dude.class
+Compiled from "JavaBeans.scala"
+public class br.com.mystudies.scala.Dude {
+  private final java.lang.String firstName;
+  private final java.lang.String lastName;
+  private java.lang.String position;
+  public java.lang.String firstName();
+  public java.lang.String lastName();
+  public java.lang.String position();
+  public void position_$eq(java.lang.String);
+  public void setPosition(java.lang.String);
+  public java.lang.String toString();
+  public java.lang.String getPosition();
+  public br.com.mystudies.scala.Dude(java.lang.String, java.lang.String);
+}*/
