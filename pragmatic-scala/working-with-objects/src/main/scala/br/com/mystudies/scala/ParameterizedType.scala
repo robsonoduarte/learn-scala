@@ -11,3 +11,17 @@ object ParameterizedType extends App {
   echo(3,5)
 
 }
+
+
+/*
+
+javap -p ParameterizedType$.class
+Compiled from "ParameterizedType.scala"
+public final class br.com.mystudies.scala.ParameterizedType$ implements scala.App {
+
+// remove another outputs
+
+  public <T> void echo(T, T);
+}
+
+ */
