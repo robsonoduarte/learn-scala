@@ -9,6 +9,7 @@ object ParameterizedType extends App {
 
   echo("Robson", "Ana")
   echo(3,5)
+  echo(1, "Robson")
 
 }
 

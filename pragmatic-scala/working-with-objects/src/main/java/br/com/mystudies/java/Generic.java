@@ -5,6 +5,7 @@ public class Generic {
 	public static void main(String[] args) {
 		echo("Robson", "Duarte");
 		echo(1, 5);
+		echo(1, "Robson");
 	}
 
 
