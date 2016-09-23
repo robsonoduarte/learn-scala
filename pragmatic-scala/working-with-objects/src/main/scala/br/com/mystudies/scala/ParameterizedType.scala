@@ -10,6 +10,11 @@ object ParameterizedType extends App {
   echo("Robson", "Ana")
   echo(3,5)
   echo(1, "Robson")
+  //echo[Int](1,"Robson") error type mismatch -> the compiler will insist that both the arguments are of type int.
+
+
+
+
 
 }
 
