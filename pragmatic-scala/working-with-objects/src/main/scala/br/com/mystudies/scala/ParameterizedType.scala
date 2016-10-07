@@ -16,7 +16,32 @@ object ParameterizedType extends App {
   //echo[Int](1,"Robson") error type mismatch -> the compiler will insist that both the arguments are of type int.
   echo2(1, "Robson")
 
+
+  val m1 = new Message("oi")
+  val m2 = new Message(123)
+
+
+  println(m1)
+  println(m1 is "oi")
+  println(m1 is "hi")
+  println(m2 is 22)
+
 }
+
+
+
+
+
+class Message[T] (val content: T){
+	def is(value: T) = value == content
+
+  override def toString = s"message content is $content"
+}
+
+
+
+
+
 
 
 /*
