@@ -26,6 +26,11 @@ object ParameterizedType extends App {
   println(m1 is "hi")
   println(m2 is 22)
 
+  // println(m2 is "oi") //compile error
+   println(m2 is 'i')// no problems because the character is converted to the compatible Int
+
+
+
 }
 
 
