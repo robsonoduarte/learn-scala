@@ -54,10 +54,25 @@ class Message[T] (val content: T){
 javap -p ParameterizedType$.class
 Compiled from "ParameterizedType.scala"
 public final class br.com.mystudies.scala.ParameterizedType$ implements scala.App {
-
 // remove another outputs
-
   public <T> void echo(T, T);
 }
+*/
 
- */
+
+
+/*
+javap -p Message.class
+Compiled from "ParameterizedType.scala"
+public class br.com.mystudies.scala.Message<T> {
+  private final T content;
+  public T content();
+  public boolean is(T);
+  public java.lang.String toString();
+  public br.com.mystudies.scala.Message(T);
+}
+*/
+
+
+
+
