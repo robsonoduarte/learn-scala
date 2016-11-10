@@ -21,7 +21,7 @@ class Person(val firstName: String, val lastName: String){
 
 
 
-object Run extends App{
+object Construct extends App{
 
     println("Let's create an instance")
     new Construct("sample")
