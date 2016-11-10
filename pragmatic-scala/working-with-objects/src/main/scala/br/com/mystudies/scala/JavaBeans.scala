@@ -9,7 +9,7 @@ class Dude(val firstName: String, val lastName: String) {
 }
 
 
-object Run2 extends App  {
+object JavaBeans extends App  {
 
   val dude = new Dude("Robson", "Duarte")
 
