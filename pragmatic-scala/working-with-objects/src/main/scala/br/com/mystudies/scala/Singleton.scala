@@ -47,9 +47,7 @@ object MarkerFactory {
           "yellow" -> new Marker("yellow")
       )
 
-
     def getMaker(color: String) = markers getOrElse(color, new Marker(color))
-
 }
 
 
