@@ -9,6 +9,6 @@ Pragmatic Scala
 
 
 
-**All projects in here repo are based in the examples of this book:**
 
-    Pragmatic Scala by Venkat Subramaniam
+*All projects in here repo are based in the examples of this book:*
+[Pragmatic Scala by Venkat Subramaniam](https://pragprog.com/book/vsscala2/pragmatic-scala)
