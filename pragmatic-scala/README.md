@@ -12,5 +12,5 @@ The projects are separate by topic of language, **topcis are**:
 
 
 **All projects in here repo are based in the examples of this book:**
-___________________________________________________
+
     Pragmatic Scala by Venkat Subramaniam
