@@ -5,10 +5,12 @@ Pragmatic Scala
 
 * [Exploring Scala / Taking Scala for a Ride](https://github.com/robsonoduarte/learn-scala/tree/master/pragmatic-scala/from-java-to-scala)
 * [From Java to Scala](https://github.com/robsonoduarte/learn-scala/tree/master/pragmatic-scala/from-java-to-scala)
+* [Working with Objects](https://github.com/robsonoduarte/learn-scala/tree/master/pragmatic-scala/working-with-objects)
 
 
 
 
 
 *All projects in here repo are based in the examples of this book:*
-[Pragmatic Scala by Venkat Subramaniam](https://pragprog.com/book/vsscala2/pragmatic-scala)
+
+    [Pragmatic Scala by Venkat Subramaniam](https://pragprog.com/book/vsscala2/pragmatic-scala)
