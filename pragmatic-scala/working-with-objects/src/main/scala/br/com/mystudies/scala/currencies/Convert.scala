@@ -4,7 +4,5 @@ import Currency._
 
 
 object Convert {
-
   def convert(money: Money, to : Currency) = new Money(money.amount * 2, to)
-
 }
