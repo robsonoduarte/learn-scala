@@ -13,5 +13,4 @@ package object currencies {
   Compiled from "package.scala"
   public final class br.com.mystudies.scala.currencies.package {
   public static br.com.mystudies.scala.currencies.Money convert(br.com.mystudies.scala.currencies.Money, scala.Enumeration$Value);
-
 */
