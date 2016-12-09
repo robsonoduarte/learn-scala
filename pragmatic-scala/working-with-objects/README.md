@@ -9,4 +9,4 @@ In this project we see how can working with objects in scala,  **the topcis are:
 * Parameterized Types
 * Singletons and Companions
 * Creating Enumerations 
-* Package Objects
+* [Package Objects](https://github.com/robsonoduarte/learn-scala/tree/master/pragmatic-scala/working-with-objects/src/main/scala/br/com/mystudies/scala/currencies)
