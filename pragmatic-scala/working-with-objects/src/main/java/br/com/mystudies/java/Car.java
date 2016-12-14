@@ -1,5 +1,7 @@
 package br.com.mystudies.java;
 
+import static java.lang.Math.abs;
+
 public class Car {
 
 	private final int year;
@@ -19,7 +21,7 @@ public class Car {
 
 
 	public void drive(int distance){
-		miles =+ Math.abs(distance);
+		miles =+ abs(distance);
 	}
 
 }

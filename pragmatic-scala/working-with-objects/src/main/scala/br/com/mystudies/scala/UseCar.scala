@@ -1,10 +1,12 @@
 package br.com.mystudies.scala
 
+import java.lang.Math._
+
 // see Car.java for comparison
 class Car(val year: Int) {
-  private var milesDriven: Int = 0
+  private var milesDriven = 0
   def miles = milesDriven
-  def drive(distance: Int) = milesDriven += Math.abs(distance)
+  def drive(distance: Int) = milesDriven += abs(distance)
 }
 
 
