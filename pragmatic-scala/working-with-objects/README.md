@@ -3,7 +3,7 @@ Working with Object in Scala
 In this project we see how can working with objects in scala,  **the topcis are:**
 
 * Creating And using Classes
-* Following the JavaBean Convetion
+* [Following the JavaBean Convetion](https://github.com/robsonoduarte/learn-scala/blob/master/pragmatic-scala/working-with-objects/src/main/scala/br/com/mystudies/scala/JavaBeans.scala)
 * [Type Aliasing](https://github.com/robsonoduarte/learn-scala/blob/master/pragmatic-scala/working-with-objects/src/main/scala/br/com/mystudies/scala/TypeAliasing.scala)
 * Extending a Class
 * [Parameterized Types](https://github.com/robsonoduarte/learn-scala/blob/master/pragmatic-scala/working-with-objects/src/main/scala/br/com/mystudies/scala/ParameterizedType.scala)
