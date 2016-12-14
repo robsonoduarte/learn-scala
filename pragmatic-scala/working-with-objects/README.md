@@ -5,7 +5,7 @@ In this project we see how can working with objects in scala,  **the topcis are:
 * Creating And using Classes
 * [Following the JavaBean Convetion](https://github.com/robsonoduarte/learn-scala/blob/master/pragmatic-scala/working-with-objects/src/main/scala/br/com/mystudies/scala/JavaBeans.scala)
 * [Type Aliasing](https://github.com/robsonoduarte/learn-scala/blob/master/pragmatic-scala/working-with-objects/src/main/scala/br/com/mystudies/scala/TypeAliasing.scala)
-* Extending a Class
+* [Extending a Class](https://github.com/robsonoduarte/learn-scala/blob/master/pragmatic-scala/working-with-objects/src/main/scala/br/com/mystudies/scala/Extending.scala)
 * [Parameterized Types](https://github.com/robsonoduarte/learn-scala/blob/master/pragmatic-scala/working-with-objects/src/main/scala/br/com/mystudies/scala/ParameterizedType.scala)
 * [Singletons](https://github.com/robsonoduarte/learn-scala/blob/master/pragmatic-scala/working-with-objects/src/main/scala/br/com/mystudies/scala/Singleton.scala) and [Companions](https://github.com/robsonoduarte/learn-scala/blob/master/pragmatic-scala/working-with-objects/src/main/scala/br/com/mystudies/scala/CompanionObjects.scala)
 * [Creating Enumerations](https://github.com/robsonoduarte/learn-scala/blob/master/pragmatic-scala/working-with-objects/src/main/scala/br/com/mystudies/scala/currencies/Currency.scala) 
