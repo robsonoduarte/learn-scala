@@ -28,13 +28,7 @@ object ParameterizedType extends App {
 
   // println(m2 is "oi") //compile error
    println(m2 is 'i')// no problems because the character is converted to the compatible Int
-
-
-
 }
-
-
-
 
 
 class Message[T] (val content: T){
@@ -42,10 +36,6 @@ class Message[T] (val content: T){
 
   override def toString = s"message content is $content"
 }
-
-
-
-
 
 
 
@@ -72,7 +62,3 @@ public class br.com.mystudies.scala.Message<T> {
   public br.com.mystudies.scala.Message(T);
 }
 */
-
-
-
-
