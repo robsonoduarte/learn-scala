@@ -1,6 +1,7 @@
 package br.com.mystudies.scala
 
 class Construct(param:String) {
+  // Scala will execute the any expression or executable statement with part of primary constructor
   println(s"Creating an instance of Construct with parameter $param")
 }
 
@@ -10,7 +11,8 @@ class Person(val firstName: String, val lastName: String){
   var position: String = _
   println(s"Creating --> ${toString}")
 
-  @Deprecated
+
+  // another constructor
   def this (firstName: String,lastName:String,positionHeld:String){
     this(firstName,lastName)
     position = positionHeld
@@ -36,6 +38,8 @@ object Construct extends App{
     var ana = new Person("Ana", "Duarte")
     println(ana)
 }
+
+
 
 
 /*javap -p Person.class
