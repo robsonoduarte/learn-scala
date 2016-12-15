@@ -29,13 +29,13 @@ object Construct extends App{
     new Construct("sample")
 
 
-    println("-----------------------------------------------------")
+    println("##################################################")
 
 
-    var robson = new Person("Robson", "Duarte", "Programmer")
+    val robson = new Person("Robson", "Duarte", "Programmer")
     println(robson)
 
-    var ana = new Person("Ana", "Duarte")
+    val ana = new Person("Ana", "Duarte")
     println(ana)
 }
 
