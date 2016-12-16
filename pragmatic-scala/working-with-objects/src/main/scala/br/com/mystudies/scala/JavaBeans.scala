@@ -20,7 +20,11 @@ object JavaBeans extends App  {
 
 }
 
-/*javap -p Dude.class
+/*
+
+THE OUTPUT OF CLASS COMPILED
+
+javap -p Dude.class
 Compiled from "JavaBeans.scala"
 public class br.com.mystudies.scala.Dude {
   private final java.lang.String firstName;
