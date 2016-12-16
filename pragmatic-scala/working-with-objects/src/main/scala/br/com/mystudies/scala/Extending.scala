@@ -18,6 +18,9 @@ class Truck(override val id: Int, override val year: Int, var fuelLevel: Int) ex
 
 
 /*
+
+ THE CLASS COMPILED
+
 javap -p Vehicle.class
 Compiled from "Extending.scala"
 public class br.com.mystudies.scala.Vehicle {
@@ -33,6 +36,9 @@ public class br.com.mystudies.scala.Vehicle {
 
 
 /*
+
+ THE CLASS COMPILED
+
 javap -p Trunk.class
 Compiled from "Extending.scala"
 public class br.com.mystudies.scala.Truck extends br.com.mystudies.scala.Vehicle {
