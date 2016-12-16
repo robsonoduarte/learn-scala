@@ -2,7 +2,11 @@ package br.com.mystudies.scala
 
 class CreditCard(val number: Int, var creditLimit: Int)
 
+
+
 /*
+ THE CLASS COMPILED
+
 javap -private CreditCard
 Warning: Binary file CreditCard contains br.com.mystudies.scala.CreditCard
 Compiled from "CreditCard.scala"
