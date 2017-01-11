@@ -6,6 +6,7 @@ Create Expressive, Concise, and Scalable Applications. The projects are separate
 * [Exploring Scala / Taking Scala for a Ride](https://github.com/robsonoduarte/learn-scala/tree/master/pragmatic-scala/scala-exploring)
 * [From Java to Scala](https://github.com/robsonoduarte/learn-scala/tree/master/pragmatic-scala/from-java-to-scala)
 * [Working with Objects](https://github.com/robsonoduarte/learn-scala/tree/master/pragmatic-scala/working-with-objects)
+* [Making Use of Types](https://github.com/robsonoduarte/learn-scala/tree/master/pragmatic-scala/making-use-of-types)
 
 
 
