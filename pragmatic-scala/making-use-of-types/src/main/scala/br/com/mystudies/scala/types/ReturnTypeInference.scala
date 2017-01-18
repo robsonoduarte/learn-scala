@@ -6,7 +6,7 @@ object ReturnTypeInference extends App {
   def f1 {Math.sinh(4)} // void method ( Unit )
   def f2 = {Math.sinh(4)} // the return is inference by Scala
   def f3 = Math.sinh(4) // the same above but in sort form ( without curly brace )
-	def f4: Double = {Math.sinh(4)} // explicit the return
+  def f4: Double = {Math.sinh(4)} // explicit the return
 
 
 
