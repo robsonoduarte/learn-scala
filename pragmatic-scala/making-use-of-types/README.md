@@ -6,4 +6,6 @@ In this project we explored Scala's static typing and type inference and three s
     * [Simple Type](https://github.com/robsonoduarte/learn-scala/blob/master/pragmatic-scala/making-use-of-types/src/main/scala/br/com/mystudies/scala/types/TypeInferenceSimpleType.scala)
     * [Generics And Collections](https://github.com/robsonoduarte/learn-scala/blob/master/pragmatic-scala/making-use-of-types/src/main/scala/br/com/mystudies/scala/types/TypeInferenceGenericCollections.scala)
     * [Option Type](https://github.com/robsonoduarte/learn-scala/blob/master/pragmatic-scala/making-use-of-types/src/main/scala/br/com/mystudies/scala/types/OptionType.scala)
+    * [Either Type](https://github.com/robsonoduarte/learn-scala/blob/master/pragmatic-scala/making-use-of-types/src/main/scala/br/com/mystudies/scala/types/EitherType.scala)
+    * [Return Type Inference](https://github.com/robsonoduarte/learn-scala/blob/master/pragmatic-scala/making-use-of-types/src/main/scala/br/com/mystudies/scala/types/ReturnTypeInference.scala)
 
