@@ -18,7 +18,7 @@ object ReturnTypeInference extends App {
 
 
   /*
-    PRINT OS SCALA REPL
+    PRINT OF SCALA REPL
 
     scala> def f1 {Math.sinh(4)}
     f1: Unit
