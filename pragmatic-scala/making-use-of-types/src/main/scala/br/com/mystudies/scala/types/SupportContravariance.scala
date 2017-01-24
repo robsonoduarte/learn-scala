@@ -12,11 +12,11 @@ object SupportContravariance extends App {
 
 
 
-	// copy array of S to D when D is supertype of S
-  def copyPets[S, D >: S](fromPets: Array[S], toPets: Array[D]) = {
-    Array.copy(fromPets, 0, toPets, 0, fromPets.size)
-    println(s"The array is copied -> ${pets.mkString(", ")}")
-  }
+	 // copy array of S to D when D is supertype of S
+	  def copyPets[S, D >: S](fromPets: Array[S], toPets: Array[D]) = {
+	    Array.copy(fromPets, 0, toPets, 0, fromPets.size)
+	    println(s"The array is copied -> ${pets.mkString(", ")}")
+	  }
 
 
 }
