@@ -8,4 +8,5 @@ In this project we explored Scala's static typing and type inference and three s
     * [Option Type](https://github.com/robsonoduarte/learn-scala/blob/master/pragmatic-scala/making-use-of-types/src/main/scala/br/com/mystudies/scala/types/OptionType.scala)
     * [Either Type](https://github.com/robsonoduarte/learn-scala/blob/master/pragmatic-scala/making-use-of-types/src/main/scala/br/com/mystudies/scala/types/EitherType.scala)
     * [Return Type Inference](https://github.com/robsonoduarte/learn-scala/blob/master/pragmatic-scala/making-use-of-types/src/main/scala/br/com/mystudies/scala/types/ReturnTypeInference.scala)
+    * [Covariance and Contravariance](https://github.com/robsonoduarte/learn-scala/blob/master/pragmatic-scala/making-use-of-types/src/main/scala/br/com/mystudies/scala/types/CovarianceContravariance.scala)
 
