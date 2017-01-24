@@ -4,7 +4,7 @@ object SupportCovariance extends App {
 
   val dogs = Array(new Dog("Preto"), new Dog("Malhado"))
 
-	def workWithPets(pets: Array[Pet]) = { pets.foreach(println(_))}
+  def workWithPets(pets: Array[Pet]) = { pets.foreach(println(_))}
 
   //workWithPets(dogs) --> Compile error because the method accepts the array of Pets. But the method is benign and Scala doesn't know that.
 
@@ -12,7 +12,6 @@ object SupportCovariance extends App {
   def playWitPets[T <: Pet](pets: Array[T]) = println(s"Play with pets: ${pets.mkString(", ")}")
 
   playWitPets(dogs)
-
 
 }
 
