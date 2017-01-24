@@ -1,6 +1,6 @@
 package br.com.mystudies.scala.types
 
-object SuportCovariance extends App {
+object SupportCovariance extends App {
 
   val dogs = Array(new Dog("Preto"), new Dog("Malhado"))
 
