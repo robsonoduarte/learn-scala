@@ -11,4 +11,5 @@ In this project we explored Scala's static typing and type inference and three s
     * [Covariance and Contravariance](https://github.com/robsonoduarte/learn-scala/blob/master/pragmatic-scala/making-use-of-types/src/main/scala/br/com/mystudies/scala/types/CovarianceContravariance.scala)
     * [Support Covariance](https://github.com/robsonoduarte/learn-scala/blob/master/pragmatic-scala/making-use-of-types/src/main/scala/br/com/mystudies/scala/types/SupportCovariance.scala)
     * [Support Contravariance](https://github.com/robsonoduarte/learn-scala/blob/master/pragmatic-scala/making-use-of-types/src/main/scala/br/com/mystudies/scala/types/SupportContravariance.scala)
+    * [Implicit Functions](https://github.com/robsonoduarte/learn-scala/blob/master/pragmatic-scala/making-use-of-types/src/main/scala/br/com/mystudies/scala/types/ImplicitFunctions.scala)
 
