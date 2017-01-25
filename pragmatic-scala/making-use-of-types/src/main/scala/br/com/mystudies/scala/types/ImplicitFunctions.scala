@@ -3,8 +3,8 @@ package br.com.mystudies.scala.types
 
 class DateHelper(offset:Int){
 
-	import scala.language.implicitConversions
-	import java.time.LocalDate._
+  import scala.language.implicitConversions
+  import java.time.LocalDate._
 
   def days(when: String) ={
     val today = now
@@ -28,7 +28,7 @@ object DateHelper{
 
 object DaysDSL extends App {
 
-	import DateHelper._
+  import DateHelper._
 
    println(2 days ago)
    println(2 days fromNow)
