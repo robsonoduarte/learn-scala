@@ -1,5 +1,16 @@
 package br.com.mystudies.scala.types
 
-object ImplicitClass extends App {
-  
+object UseDateUtil extends App {
+
 }
+
+
+object DateUitl{
+
+  implicit class DateHelper(offset: String){
+
+  }
+
+}
+
+
