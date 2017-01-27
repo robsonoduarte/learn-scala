@@ -1,5 +1,7 @@
 package br.com.mystudies.scala.types
 
+
+
 object UseDateUtil extends App {
 
 }
@@ -7,8 +9,16 @@ object UseDateUtil extends App {
 
 object DateUitl{
 
-  implicit class DateHelper(offset: String){
+  import java.time.LocalDate._
 
+
+  implicit class DateHelper(offset: Int){
+    def day(when:String){
+     val today = now
+       when match{
+       case "ago" => today.minusDays(offset)
+     }
+    }
   }
 
 }
