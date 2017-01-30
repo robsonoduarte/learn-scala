@@ -4,7 +4,7 @@ package br.com.mystudies.scala.types
 
 object UseDateUtil extends App {
 
-  import br.com.mystudies.scala.types.DateUitl._
+  import br.com.mystudies.scala.types.DateUtil._
 
   print(2 days ago)
   print(2 days fromNow)
@@ -13,7 +13,7 @@ object UseDateUtil extends App {
 
 
 
-object DateUitl{
+object DateUtil{
 
   import java.time.LocalDate._
 
