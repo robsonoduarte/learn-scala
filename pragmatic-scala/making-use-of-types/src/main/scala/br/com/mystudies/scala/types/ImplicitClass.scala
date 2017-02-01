@@ -19,6 +19,7 @@ object DateUtil{
   val ago = "ago"
   val fromNow = "fromNow"
 
+  // Scala does not require the implicitConversions import when implicit class are used
   implicit class DateHelper(offset: Int){
     def days(when:String) = {
      val today = now
