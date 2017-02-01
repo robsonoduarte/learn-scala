@@ -8,6 +8,7 @@ object UseDateUtil extends App {
 
   println(2 days ago)
   println(2 days fromNow)
+  println(2 days "")
 }
 
 

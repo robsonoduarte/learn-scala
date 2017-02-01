@@ -3,7 +3,7 @@ package br.com.mystudies.scala.types
 
 class DateHelper(offset:Int){
 
-  import scala.language.implicitConversions
+  import scala.language.implicitConversions //-> when use the Implicit Functions we need import the implicitConversions
   import java.time.LocalDate._
 
   def days(when: String) ={
