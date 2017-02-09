@@ -44,8 +44,6 @@ public final class br.com.mystudies.scala.types.UseDateUtil {
        0: getstatic     #16                 // Field br/com/mystudies/scala/types/UseDateUtil$.MODULE$:Lbr/com/mystudies/scala/types/UseDateUtil$;
        3: invokevirtual #38                 // Method br/com/mystudies/scala/types/UseDateUtil$.delayedEndpoint$br$com$mystudies$scala$types$UseDateUtil$1:()V
        6: return
-
-
 }*/
 
 
