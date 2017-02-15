@@ -13,4 +13,5 @@ In this project we explored Scala's static typing and type inference and three s
     * [Support Contravariance](https://github.com/robsonoduarte/learn-scala/blob/master/pragmatic-scala/making-use-of-types/src/main/scala/br/com/mystudies/scala/types/SupportContravariance.scala)
     * [Implicit Functions](https://github.com/robsonoduarte/learn-scala/blob/master/pragmatic-scala/making-use-of-types/src/main/scala/br/com/mystudies/scala/types/ImplicitFunctions.scala)
     * [Implicit Class](https://github.com/robsonoduarte/learn-scala/blob/master/pragmatic-scala/making-use-of-types/src/main/scala/br/com/mystudies/scala/types/ImplicitClass.scala)
+    * [Using Implict Conversions](https://github.com/robsonoduarte/learn-scala/blob/master/pragmatic-scala/making-use-of-types/src/main/scala/br/com/mystudies/scala/types/ImplicitConversions.scala)
 
