@@ -16,6 +16,8 @@ object ExtensibilityHigherOrderFunctions extends App {
   println(totalResultOverRange(11, i => i)) // Scala was able to infer that th type of parameter
 
 
+  println(totalResultOverRange(11, i => if(i % 2 == 0) i else 0))
+
 
 
 
