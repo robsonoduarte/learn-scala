@@ -7,6 +7,7 @@ Create Expressive, Concise, and Scalable Applications. The projects are separate
 * [From Java to Scala](https://github.com/robsonoduarte/learn-scala/tree/master/pragmatic-scala/from-java-to-scala)
 * [Working with Objects](https://github.com/robsonoduarte/learn-scala/tree/master/pragmatic-scala/working-with-objects)
 * [Making Use of Types](https://github.com/robsonoduarte/learn-scala/tree/master/pragmatic-scala/making-use-of-types)
+* [Functions Values and Closures](https://github.com/robsonoduarte/learn-scala/tree/master/pragmatic-scala/function-values-closures)
 
 
 
