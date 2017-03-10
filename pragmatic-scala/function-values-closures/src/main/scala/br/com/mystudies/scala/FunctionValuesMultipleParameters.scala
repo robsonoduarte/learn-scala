@@ -1,6 +1,6 @@
 package br.com.mystudies.scala
 
-object FunctionValuesMultipeParameters extends App {
+object FunctionValuesMultipleParameters extends App {
 
 
   def printValue(generator: () => Int) = {
