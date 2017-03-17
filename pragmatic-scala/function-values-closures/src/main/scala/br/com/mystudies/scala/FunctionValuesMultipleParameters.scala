@@ -1,5 +1,7 @@
 package br.com.mystudies.scala
 
+import java.lang.Integer._
+
 object FunctionValuesMultipleParameters extends App {
 
 
@@ -21,5 +23,25 @@ object FunctionValuesMultipleParameters extends App {
   val array = Array(2,3,5,1,6,4)
   val sum = inject(array, 0, (x,y) => x + y)
   println(s"Sum of elements in array is $sum")
+
+
+
+  val max = inject(array, MIN_VALUE , (x,y) => Math.max(x, y))
+  println(s"Max of elements in array is $max")
+
+
+
+
+  // using the scala library
+
+  val sum2 = array.foldLeft(0){(x,y) => x + y}
+  val max2 = array.foldLeft(MIN_VALUE)((x,y) => Math.max(x, y))
+  println(s"Sum of elements in array is $sum2")
+	println(s"Max of elements in array is $max2")
+
+
+
+
+
 
 }
