@@ -20,6 +20,7 @@ object FunctionValuesMultipleParameters extends App {
   }
 
 
+
   val array = Array(2,3,5,1,6,4)
   val sum = inject(array, 0, (x,y) => x + y)
   println(s"Sum of elements in array is $sum")
@@ -42,6 +43,12 @@ object FunctionValuesMultipleParameters extends App {
 
 
 
+	// Using the shortcuts names
+
+	val sum3 = (0 /: array){(x,y) => x + y}
+  val max3 = (MIN_VALUE /: array)((x,y) => Math.max(x, y))
+  println(s"Sum of elements in array is $sum3")
+	println(s"Max of elements in array is $max3")
 
 
 }
