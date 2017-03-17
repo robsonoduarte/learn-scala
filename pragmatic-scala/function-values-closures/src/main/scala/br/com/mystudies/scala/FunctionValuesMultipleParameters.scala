@@ -51,4 +51,25 @@ object FunctionValuesMultipleParameters extends App {
 	println(s"Max of elements in array is $max3")
 
 
+
+
+	// Try using currying in inject method
+
+ //val sum4 = inject(array,0){(x,y) => x + y}
+
+
+	/*
+	 * The following problem happens:
+	 *
+	 * [error] Unspecified value parameter operation.
+		 [error] val sum4 = inject(array,0){(x,y) => x + y}
+		 [error]                          ^
+     [error] one error found
+     [error] (compile:compileIncremental) Compilation failed
+     [error] Total time: 5 s, completed 17/03/2017 18:24:36
+	 */
+
+
+
+
 }
