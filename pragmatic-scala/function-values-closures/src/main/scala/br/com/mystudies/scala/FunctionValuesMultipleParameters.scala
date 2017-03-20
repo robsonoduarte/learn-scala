@@ -70,6 +70,4 @@ object FunctionValuesMultipleParameters extends App {
 	 */
 
 
-
-
 }
