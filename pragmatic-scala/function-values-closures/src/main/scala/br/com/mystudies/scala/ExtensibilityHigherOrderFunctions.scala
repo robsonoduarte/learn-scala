@@ -19,5 +19,4 @@ object ExtensibilityHigherOrderFunctions extends App {
 
 
 
-
 }
