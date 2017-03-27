@@ -17,6 +17,4 @@ object PositionalNotationForParameters extends App {
 
   println(negativeNumberExists1)
   println(negativeNumberExists2)
-
-
 }
