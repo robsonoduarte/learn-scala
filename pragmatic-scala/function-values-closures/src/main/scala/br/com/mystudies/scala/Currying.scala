@@ -8,11 +8,8 @@ object Currying extends App {
     carryOver
   }
 
-
   val arr = Array(1,3,4,1,6)
   val sum = inject(arr, 0 ){(x,y) => x + y}
 
-
   println(sum)
-
 }
