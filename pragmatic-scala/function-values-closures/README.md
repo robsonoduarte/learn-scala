@@ -8,3 +8,4 @@ In this project, we explored the concepts related to function values; functions 
 * [Currying](https://github.com/robsonoduarte/learn-scala/blob/master/pragmatic-scala/function-values-closures/src/main/scala/br/com/mystudies/scala/Currying.scala)
 * [Positional Notation for Parameters](https://github.com/robsonoduarte/learn-scala/blob/master/pragmatic-scala/function-values-closures/src/main/scala/br/com/mystudies/scala/PositionalNotationForParameters.scala)
 * [Parameter Routing](https://github.com/robsonoduarte/learn-scala/blob/master/pragmatic-scala/function-values-closures/src/main/scala/br/com/mystudies/scala/ParameterRouting.scala)
+* [Reusing Functions Values](https://github.com/robsonoduarte/learn-scala/blob/master/pragmatic-scala/function-values-closures/src/main/scala/br/com/mystudies/scala/ReusingFunctionValues.scala)
