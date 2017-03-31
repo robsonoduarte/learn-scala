@@ -7,3 +7,4 @@ In this project, we explored the concepts related to function values; functions 
 * [Function Values with Multiple Parameters](https://github.com/robsonoduarte/learn-scala/blob/master/pragmatic-scala/function-values-closures/src/main/scala/br/com/mystudies/scala/FunctionValuesMultipleParameters.scala)
 * [Currying](https://github.com/robsonoduarte/learn-scala/blob/master/pragmatic-scala/function-values-closures/src/main/scala/br/com/mystudies/scala/Currying.scala)
 * [Positional Notation for Parameters](https://github.com/robsonoduarte/learn-scala/blob/master/pragmatic-scala/function-values-closures/src/main/scala/br/com/mystudies/scala/PositionalNotationForParameters.scala)
+* [Parameter Routing](https://github.com/robsonoduarte/learn-scala/blob/master/pragmatic-scala/function-values-closures/src/main/scala/br/com/mystudies/scala/ParameterRouting.scala)
