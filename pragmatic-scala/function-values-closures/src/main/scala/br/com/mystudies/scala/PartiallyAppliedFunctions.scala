@@ -6,12 +6,9 @@ import java.util.Date
 
 object PartiallyAppliedFunctions extends App {
 
-
-
   def log(date:Date, message: String) = {
     println(s"$date ---- $message")
   }
-
 
   val date = new Date()
   log(date, "message1")
@@ -23,6 +20,4 @@ object PartiallyAppliedFunctions extends App {
   logWithDateBound("message 1")
   logWithDateBound("message 2")
   logWithDateBound("message 3")
-
-
 }
