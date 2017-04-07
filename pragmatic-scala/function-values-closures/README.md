@@ -10,3 +10,4 @@ In this project, we explored the concepts related to function values; functions 
 * [Parameter Routing](https://github.com/robsonoduarte/learn-scala/blob/master/pragmatic-scala/function-values-closures/src/main/scala/br/com/mystudies/scala/ParameterRouting.scala)
 * [Reusing Functions Values](https://github.com/robsonoduarte/learn-scala/blob/master/pragmatic-scala/function-values-closures/src/main/scala/br/com/mystudies/scala/ReusingFunctionValues.scala)
 * [Partially Applied Functions](https://github.com/robsonoduarte/learn-scala/blob/master/pragmatic-scala/function-values-closures/src/main/scala/br/com/mystudies/scala/PartiallyAppliedFunctions.scala)
+* [Closures](https://github.com/robsonoduarte/learn-scala/blob/master/pragmatic-scala/function-values-closures/src/main/scala/br/com/mystudies/scala/Closures.scala)
