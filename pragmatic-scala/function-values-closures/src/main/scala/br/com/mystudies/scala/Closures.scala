@@ -8,16 +8,11 @@ object Closures extends App {
     }
   }
 
-
-
   var result = 0
   val addIt = {value:Int => result += value}
 
-
-
   loopThrough(10)(element => addIt(element))
   println(s"Total of values from 1 to 10 is $result")
-
 
   result = 0
 
@@ -33,6 +28,4 @@ object Closures extends App {
   product = 1
   loopThrough(5)(product *= _)
   println(s"Product of values from 1 to 10 is $product")
-
-
 }
