@@ -2,7 +2,12 @@ package br.com.mystudies.scala
 
 object Closures extends App {
 
-  def loopThrough(number:Int)(closure: Int => Unit) = for(i <- 1 to number) closure(i)
+  def loopThrough(number:Int)(closure: Int => Unit) {
+    for(i <- 1 to number) {
+      closure(i)
+    }
+  }
+
 
 
   var result = 0
@@ -21,7 +26,12 @@ object Closures extends App {
 
 
   var product = 1
+  loopThrough(5){value:Int => product *= value }
+  println(s"Product of values from 1 to 10 is $product")
+
+  product = 1
   loopThrough(5)(product *= _)
   println(s"Product of values from 1 to 10 is $product")
+
 
 }
