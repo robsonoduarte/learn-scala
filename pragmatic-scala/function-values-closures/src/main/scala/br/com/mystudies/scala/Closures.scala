@@ -29,6 +29,7 @@ object Closures extends App {
   loopThrough(5){value:Int => product *= value }
   println(s"Product of values from 1 to 10 is $product")
 
+
   product = 1
   loopThrough(5)(product *= _)
   println(s"Product of values from 1 to 10 is $product")
