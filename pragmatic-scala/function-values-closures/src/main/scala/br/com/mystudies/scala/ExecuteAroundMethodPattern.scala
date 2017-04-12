@@ -12,13 +12,12 @@ object ExecuteAroundMethodPattern extends App {
 }
 
 
-
 class Resource private(){
   println("Startin transaction")
   private def cleanUp(){println("Ending transaction")}
   def op1() = println("Operation 1")
   def op2() = println("Operation 2")
-	def op3() = println("Operation 3")
+  def op3() = println("Operation 3")
 }
 
 
