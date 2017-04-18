@@ -1,4 +1,4 @@
 Traits
 ---------------------------------
 
-*README IN CONTRUTION*
+**README IN CONTRUTION**
