@@ -4,7 +4,12 @@ object UnderstandingTraits extends App {
 }
 
 class Human(val name: String ){
+  def listen = println(s"Your  friend $name is listening")
 }
 
 
-// in construction
+class Man(override val name: String ) extends Human(name)
+class Woman(override val name: String ) extends Human(name)
+
+
+
