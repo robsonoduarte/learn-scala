@@ -1,6 +1,14 @@
 package br.com.mystudies.scala
 
 object UnderstandingTraits extends App {
+  val robson = new Man("Robson")
+  val ana = new Woman("Ana")
+  val preto = new Dog("Preto")
+
+
+  robson.listen
+  ana.listen
+  preto.listen
 
 }
 
@@ -20,7 +28,7 @@ class Woman(override val name: String ) extends Human(name)
 
 class Dog(val name: String) extends Animal with Friend{
   // optionally override method here.
-  override def listen = println(s"$name's lisgening quietly")
+  override def listen = println(s"$name's listening quietly")
 }
 
 
