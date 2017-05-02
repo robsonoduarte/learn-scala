@@ -9,6 +9,18 @@ object UnderstandingTraits extends App {
   robson.listen
   ana.listen
   preto.listen
+
+
+
+  val manBestFriend:Friend = preto
+  manBestFriend.listen
+
+  def helpAsFriend(friend: Friend ) = friend.listen
+
+  helpAsFriend(ana)
+  helpAsFriend(preto)
+
+
 }
 
 
