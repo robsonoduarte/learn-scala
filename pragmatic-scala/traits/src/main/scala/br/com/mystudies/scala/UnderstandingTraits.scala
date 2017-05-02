@@ -10,8 +10,6 @@ object UnderstandingTraits extends App {
   ana.listen
   preto.listen
 
-
-
   val manBestFriend:Friend = preto
   manBestFriend.listen
 
@@ -19,8 +17,6 @@ object UnderstandingTraits extends App {
 
   helpAsFriend(ana)
   helpAsFriend(preto)
-
-
 }
 
 
@@ -37,6 +33,3 @@ class Woman(override val name: String ) extends Human(name)
 class Dog(val name: String) extends Animal with Friend{
   override def listen = println(s"$name's listening quietly")  // optionally override method here.
 }
-
-
-
