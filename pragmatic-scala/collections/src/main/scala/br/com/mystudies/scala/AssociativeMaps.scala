@@ -8,6 +8,4 @@ object AssociativeMaps extends App{
         "NFJS" -> "nofluffjuststuff.com/blog"
       )
 
-
-
 }
