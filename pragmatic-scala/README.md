@@ -9,6 +9,7 @@ Create Expressive, Concise, and Scalable Applications. The projects are separate
 * [Making Use of Types](https://github.com/robsonoduarte/learn-scala/tree/master/pragmatic-scala/making-use-of-types)
 * [Functions Values and Closures](https://github.com/robsonoduarte/learn-scala/tree/master/pragmatic-scala/function-values-closures)
 * [Traits](https://github.com/robsonoduarte/learn-scala/tree/master/pragmatic-scala/traits)
+* [Collections](https://github.com/robsonoduarte/learn-scala/tree/master/pragmatic-scala/collections)
 
 
 
