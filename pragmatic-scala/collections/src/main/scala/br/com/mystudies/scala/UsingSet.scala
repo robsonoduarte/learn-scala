@@ -21,4 +21,14 @@ object UsingSet extends App {
   val commonsFeeds = feeds1 & feeds2
   println(s"commons feeds: ${commonsFeeds mkString ", "}")
 
+
+
+  // map
+  val urls = feeds1 map { "http://" + _ }
+  println(s"One url: ${urls.head}")
+
+
+  // foreach
+  feeds1 foreach {fedd => println(s"Refreshing $fedd")}
+
 }
