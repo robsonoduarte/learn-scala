@@ -6,10 +6,19 @@ object UsingSet extends App {
   val feeds2 = Set("blog.toolshed.com", "martinfowler.com/bliki")
 
 
-
   // filter
 
   val blogFeeds = feeds1 filter { _ contains "blog" }
-  println(s"blog feeds: ${blogFeeds.mkString(", ")}")
+  println(s"blog feeds: ${blogFeeds mkString ", "}")
+
+
+  // merge
+  val mergedFeeds = feeds1 ++ feeds2
+  println(s"# of merged feeds: ${mergedFeeds size}")
+
+
+  // intersect
+  val commonsFeeds = feeds1 & feeds2
+  println(s"commons feeds: ${commonsFeeds mkString ", "}")
 
 }
