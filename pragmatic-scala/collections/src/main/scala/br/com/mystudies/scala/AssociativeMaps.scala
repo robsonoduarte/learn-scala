@@ -8,4 +8,13 @@ object AssociativeMaps extends App{
         "NFJS" -> "nofluffjuststuff.com/blog"
       )
 
+
+
+
+       // filter
+
+      val filterNamesStartWithD = feeds filterKeys { _ startsWith "D" }
+      println(s"# of Filtered: ${filterNamesStartWithD.size}")
+
+
 }
