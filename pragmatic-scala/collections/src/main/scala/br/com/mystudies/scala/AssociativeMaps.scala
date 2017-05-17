@@ -9,12 +9,12 @@ object AssociativeMaps extends App{
       )
 
 
-
-
-       // filter
-
+       // filter by key
       val filterNamesStartWithD = feeds filterKeys { _ startsWith "D" }
       println(s"# of Filtered: ${filterNamesStartWithD.size}")
+
+
+
 
 
 }
