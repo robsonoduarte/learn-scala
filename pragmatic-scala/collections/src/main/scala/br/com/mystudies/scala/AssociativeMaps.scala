@@ -14,7 +14,14 @@ object AssociativeMaps extends App{
       println(s"# of Filtered: ${filterNamesStartWithD.size}")
 
 
+     // filter on the values
 
+     val filterNameStartWithDAndPragInFeed = feeds filter {elem =>
+        val (key, value) = elem
+       (key startsWith "D") && (value contains "prag")
+      }
+
+      println(s"# of feeds with auth name D* and pragprog in URL: ${filterNameStartWithDAndPragInFeed.size}")
 
 
 }
