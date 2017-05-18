@@ -46,6 +46,13 @@ object AssociativeMaps extends App{
 
 
 
+    // updated
+
+    val newFeeds1 = feeds.updated("Robson Duarte", "https://twitter.com/robsonoduarte")
+    println(s"Robson's blog in original feeds: ${feeds.get("Robson Duarte")}")
+    println(s"Robson's blog in new feeds: ${newFeeds1.get("Robson Duarte")}")
+
+
 
 
 
