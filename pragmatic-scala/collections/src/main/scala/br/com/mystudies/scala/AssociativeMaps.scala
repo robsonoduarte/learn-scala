@@ -33,6 +33,16 @@ object AssociativeMaps extends App{
 
 
 
+    // apply method to get
+
+    try{
+    	println(s"Get And's Feed Using Apply: ${feeds("Andy Hunt")}")
+    	print("Get Bill's Feed: ")
+    	println(feeds("Bill who"))
+    }
+    catch{
+      case ex: java.util.NoSuchElementException => println("Not Found")
+    }
 
 
 
