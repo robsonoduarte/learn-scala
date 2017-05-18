@@ -24,4 +24,41 @@ object AssociativeMaps extends App{
       println(s"# of feeds with auth name D* and pragprog in URL: ${filterNameStartWithDAndPragInFeed.size}")
 
 
+
+     // get Some[T] or None
+
+      println(s"Get And's Feed: ${feeds get "Andy Hunt"}")
+      println(s"Get Bills's Feed: ${feeds get "Bill Who"}")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
