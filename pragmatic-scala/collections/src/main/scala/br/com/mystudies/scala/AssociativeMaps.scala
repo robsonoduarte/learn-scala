@@ -61,29 +61,4 @@ object AssociativeMaps extends App{
         )
     mutableFeeds("Groovy Book Forum") = "forums.pragprog.com/forum/246"
     println(s"Number of forums: ${mutableFeeds.size}")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
