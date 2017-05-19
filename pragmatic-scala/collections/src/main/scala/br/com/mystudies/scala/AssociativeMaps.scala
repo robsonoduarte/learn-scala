@@ -55,6 +55,14 @@ object AssociativeMaps extends App{
 
 
 
+    // update in mutable map
+    val mutableFeeds = scala.collection.mutable.Map(
+          "Scala Book Forum" -> "forums.pragprog.com/forum/87"
+        )
+    mutableFeeds("Groovy Book Forum") = "forums.pragprog.com/forum/246"
+    println(s"Number of forums: ${mutableFeeds.size}")
+
+
 
 
 
