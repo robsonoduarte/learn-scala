@@ -17,6 +17,12 @@ object ImmutableLists extends App {
   println(s"The FeedPrefixed: ${prefixedList}")
 
 
+  //append
+  val feedsWithForums =
+    fedds ::: List("forums.pragprog.com/forums/87", "forums.pragprog.com/forum/287")
+
+  println(s"First feed in feeds with forum: ${feedsWithForums.head}")
+  println(s"Last feed in feeds with forum: ${feedsWithForums.last}")
 
 
 }
