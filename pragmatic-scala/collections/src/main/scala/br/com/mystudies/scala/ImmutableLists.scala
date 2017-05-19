@@ -7,4 +7,8 @@ object ImmutableLists extends App {
 
 
 
+  // head and get
+  println(s"First feed: ${fedds.head}" )
+  println(s"First feed: ${fedds(1)}" )
+
 }
