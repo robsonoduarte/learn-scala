@@ -15,7 +15,6 @@ object AssociativeMaps extends App{
 
 
      // filter on the values
-
      val filterNameStartWithDAndPragInFeed = feeds filter {elem =>
         val (key, value) = elem
        (key startsWith "D") && (value contains "prag")
@@ -26,7 +25,6 @@ object AssociativeMaps extends App{
 
 
      // get Some[T] or None
-
       println(s"Get And's Feed: ${feeds get "Andy Hunt"}")
       println(s"Get Bills's Feed: ${feeds get "Bill Who"}")
 
@@ -34,7 +32,6 @@ object AssociativeMaps extends App{
 
 
     // apply method to get
-
     try{
     	println(s"Get And's Feed Using Apply: ${feeds("Andy Hunt")}")
     	print("Get Bill's Feed: ")
@@ -47,7 +44,6 @@ object AssociativeMaps extends App{
 
 
     // updated
-
     val newFeeds1 = feeds.updated("Robson Duarte", "https://twitter.com/robsonoduarte")
     println(s"Robson's blog in original feeds: ${feeds.get("Robson Duarte")}")
     println(s"Robson's blog in new feeds: ${newFeeds1.get("Robson Duarte")}")
