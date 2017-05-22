@@ -23,12 +23,9 @@ object AssociativeMaps extends App{
       println(s"# of feeds with auth name D* and pragprog in URL: ${filterNameStartWithDAndPragInFeed.size}")
 
 
-
      // get Some[T] or None
       println(s"Get And's Feed: ${feeds get "Andy Hunt"}")
       println(s"Get Bills's Feed: ${feeds get "Bill Who"}")
-
-
 
 
       // apply method to get
@@ -42,13 +39,10 @@ object AssociativeMaps extends App{
       }
 
 
-
       // updated
       val newFeeds1 = feeds.updated("Robson Duarte", "https://twitter.com/robsonoduarte")
       println(s"Robson's blog in original feeds: ${feeds.get("Robson Duarte")}")
       println(s"Robson's blog in new feeds: ${newFeeds1.get("Robson Duarte")}")
-
-
 
 
       // update in mutable map
