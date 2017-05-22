@@ -7,10 +7,8 @@ object UsingSet extends App {
 
 
   // filter
-
   val blogFeeds = feeds1 filter { _ contains "blog" }
   println(s"blog feeds: ${blogFeeds mkString ", "}")
-
 
   // merge
   val mergedFeeds = feeds1 ++ feeds2
