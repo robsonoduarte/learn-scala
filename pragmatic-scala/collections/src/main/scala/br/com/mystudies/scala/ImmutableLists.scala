@@ -45,7 +45,9 @@ object ImmutableLists extends App {
   println(s"Total length of feed urls: $total")
 
 
-
+  // alternative to the foldLeft
+  val total2 = (0 /: feeds) {(total, feed) => total + feed.length}
+  println(s"Total length of feed urls: $total2")
 
 
 
