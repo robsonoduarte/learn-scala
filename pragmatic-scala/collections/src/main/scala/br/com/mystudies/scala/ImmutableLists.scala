@@ -35,5 +35,10 @@ object ImmutableLists extends App {
   println(s"Any feeds have dave: ${feeds.exists( _ contains "dave")}")
   println(s"Any feeds have bill: ${feeds.exists( _ contains "bill")}")
 
+
+  // map
+  print(s"Feed url lengths : ${feeds.map(_ length).mkString(", ")}")
+
+
 }
 
