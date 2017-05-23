@@ -37,7 +37,16 @@ object ImmutableLists extends App {
 
 
   // map
-  print(s"Feed url lengths : ${feeds.map(_ length).mkString(", ")}")
+  println(s"Feed url lengths : ${feeds.map(_ length).mkString(", ")}")
+
+
+  // foldleft
+  val total = feeds.foldLeft(0)((total, feed) => total + feed.length)
+  println(s"Total length of feed urls: $total")
+
+
+
+
 
 
 }
