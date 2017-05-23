@@ -23,3 +23,4 @@ object ImmutableLists extends App {
   println(s"Last feed in feeds with forum: ${feedsWithForums.last}")
 
 }
+

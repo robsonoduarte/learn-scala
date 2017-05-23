@@ -7,10 +7,8 @@ object UsingSet extends App {
 
 
   // filter
-
   val blogFeeds = feeds1 filter { _ contains "blog" }
   println(s"blog feeds: ${blogFeeds mkString ", "}")
-
 
   // merge
   val mergedFeeds = feeds1 ++ feeds2
@@ -21,8 +19,6 @@ object UsingSet extends App {
   val commonsFeeds = feeds1 & feeds2
   println(s"commons feeds: ${commonsFeeds mkString ", "}")
 
-
-
   // map
   val urls = feeds1 map { "http://" + _ }
   println(s"One url: ${urls.head}")
@@ -30,5 +26,4 @@ object UsingSet extends App {
 
   // foreach
   feeds1 foreach {fedd => println(s"Refreshing $fedd")}
-
 }
