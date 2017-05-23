@@ -3,7 +3,7 @@ package br.com.mystudies.scala
 object ImmutableLists extends App {
 
 
-  val feeds = List("blog.toolshed.com","pragdave.me","blog.agiledeveloper.com")
+  val feeds = List("blog.toolshed.com","pragdave.me.com","blog.agiledeveloper.com")
 
   // head and get
   println(s"First feed: ${feeds.head}" )
@@ -27,6 +27,13 @@ object ImmutableLists extends App {
   val appendedList = feeds ::: List("agilelearner.com")
   println(s"Last Feed in Appended: ${appendedList.last}" )
 
+
+  // filter , forall , exists
+  println(s"Feeds with blog : ${feeds.filter( _ contains "blog").mkString(", ")}")
+  println(s"All feeds have com: ${feeds.forall( _ contains "com")}")
+  println(s"All feeds have dave: ${feeds.forall( _ contains "dave")}")
+  println(s"Any feeds have dave: ${feeds.exists( _ contains "dave")}")
+  println(s"Any feeds have bill: ${feeds.exists( _ contains "bill")}")
 
 }
 
