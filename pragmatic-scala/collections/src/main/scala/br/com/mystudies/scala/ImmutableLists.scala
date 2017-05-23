@@ -49,6 +49,9 @@ object ImmutableLists extends App {
   val total2 = (0 /: feeds) {(total, feed) => total + feed.length}
   println(s"Total length of feed urls: $total2")
 
+  // using the concise code
+  val total3 = (0 /: feeds) {_ + _.length}
+  println(s"Total length of feed urls: $total3")
 
 
 
