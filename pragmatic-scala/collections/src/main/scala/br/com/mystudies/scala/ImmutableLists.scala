@@ -22,5 +22,11 @@ object ImmutableLists extends App {
   println(s"First feed in feeds with forum: ${feedsWithForums.head}")
   println(s"Last feed in feeds with forum: ${feedsWithForums.last}")
 
+
+  // append an element
+  val appendedList = fedds ::: List("agilelearner.com")
+  println(s"Last Feed in Appended: ${appendedList.last}" )
+
+
 }
 
