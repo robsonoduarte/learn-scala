@@ -12,5 +12,4 @@ object TheForExpression extends App {
   // use yield
   val result = for(i <- 1 to 10) yield i * 2
   print(result)
-
 }
