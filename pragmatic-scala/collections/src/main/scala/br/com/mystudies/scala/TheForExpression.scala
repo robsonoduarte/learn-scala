@@ -11,5 +11,10 @@ object TheForExpression extends App {
 
   // use yield
   val result = for(i <- 1 to 10) yield i * 2
-  print(result)
+  println(result)
+
+  // using map
+  val result2 = (1 to 10).map(_ * 2)
+  println(result2)
+
 }
