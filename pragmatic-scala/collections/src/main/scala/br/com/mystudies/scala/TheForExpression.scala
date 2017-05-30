@@ -21,4 +21,13 @@ object TheForExpression extends App {
   val doubleEven = for(i <- 1 to 10; if i % 2 ==0) yield i * 2
   println(doubleEven)
 
+
+  // using the curly braces
+  val doubleEven2 =
+    for{
+      i <- 1 to 10
+      if i % 2 == 0
+    }yield i * 2
+  println(doubleEven2)
+
 }
