@@ -17,4 +17,8 @@ object TheForExpression extends App {
   val result2 = (1 to 10).map(_ * 2)
   println(result2)
 
+  // using filter
+  val doubleEven = for(i <- 1 to 10; if i % 2 ==0) yield i * 2
+  println(doubleEven)
+
 }
