@@ -28,6 +28,10 @@ object TheForExpression extends App {
       i <- 1 to 10
       if i % 2 == 0
     }yield i * 2
+
   println(doubleEven2)
+
+
+
 
 }
