@@ -32,6 +32,14 @@ object TheForExpression extends App {
   println(doubleEven2)
 
 
+  // iterating over one collection
 
 
+}
+
+
+
+class Person(val firstname: String, val lastName: String)
+object Person{
+  def apply(firstName: String, lastName: String) = new Person(firstName,lastName)
 }
