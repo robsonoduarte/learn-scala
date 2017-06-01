@@ -33,6 +33,10 @@ object TheForExpression extends App {
 
 
   // iterating over one collection
+  val friends = List(Person("Robson", "Duarte"),Person("Ana", "Mara"),Person("Antonio", "Duarte"), Person("Cibele", "Duarte"))
+  val firstNames =
+    for(friend <- friends; firstName = friend.firstname)yield firstName
+  println( firstNames.mkString(", "))
 
 
 }
