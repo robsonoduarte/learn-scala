@@ -10,6 +10,7 @@ Create Expressive, Concise, and Scalable Applications. The projects are separate
 * [Functions Values and Closures](https://github.com/robsonoduarte/learn-scala/tree/master/pragmatic-scala/function-values-closures)
 * [Traits](https://github.com/robsonoduarte/learn-scala/tree/master/pragmatic-scala/traits)
 * [Collections](https://github.com/robsonoduarte/learn-scala/tree/master/pragmatic-scala/collections)
+* [Pattern Matching and Regular Expressions](https://github.com/robsonoduarte/learn-scala/tree/master/pragmatic-scala/pattern-matching-regular-expressions)
 
 
 
