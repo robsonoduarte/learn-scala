@@ -14,9 +14,8 @@ object MatchingWilcard extends App {
     }
   }
 
-
-	activity(SATURDAY)
-	activity(MONDAY)
+  activity(SATURDAY)
+  activity(MONDAY)
 
 }
 
