@@ -46,7 +46,7 @@ class Sample2{
 
   def process(input: Int){
     input match{
-      case MAX=> println(s"You matched max $MAX") // use uppercase names form true constants
+      case MAX=> println(s"You matched max $MAX") // use uppercase names form true constants that Scala will match automatically
     }
   }
 }
