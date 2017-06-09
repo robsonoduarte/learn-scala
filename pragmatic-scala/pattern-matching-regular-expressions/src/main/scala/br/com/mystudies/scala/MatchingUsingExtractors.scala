@@ -1,6 +1,6 @@
 package br.com.mystudies.scala
 
-object MatcthingUsingExtractors extends App {
+object MatchingUsingExtractors extends App {
 
   StockService process "GOOG"
   StockService process "IBM"
@@ -32,7 +32,7 @@ object ReceiveStockPrice{
     try {
     	if(input contains ":"){
     		val splitQuote = input split ":"
-		Some(splitQuote(0), splitQuote(1).toDouble)
+		    Some(splitQuote(0), splitQuote(1).toDouble)
     	}
     	else{
     		None
