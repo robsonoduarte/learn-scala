@@ -8,4 +8,5 @@ object RegularExpressions extends App {
   println(pattern findFirstIn str)
   println(pattern findAllIn str mkString(", "))
   println("cool".r replaceFirstIn(str, "awesome"))
+  
 }
