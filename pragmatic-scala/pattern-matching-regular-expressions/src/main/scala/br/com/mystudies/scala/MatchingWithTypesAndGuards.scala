@@ -13,7 +13,6 @@ object MatchingWithTypesAndGuards extends App {
     }
   }
 
-
   process((34.2, -159.3))
   process(0)
   process(1000001)
