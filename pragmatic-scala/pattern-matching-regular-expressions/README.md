@@ -10,3 +10,4 @@ In this project we will see Scala's mechanism form pattern matching, the case cl
 * [Matching Using case Classes](https://github.com/robsonoduarte/learn-scala/blob/master/pragmatic-scala/pattern-matching-regular-expressions/src/main/scala/br/com/mystudies/scala/MatchingUsingCaseClasses.scala)
 * [Matching Using Extracotrs](https://github.com/robsonoduarte/learn-scala/blob/master/pragmatic-scala/pattern-matching-regular-expressions/src/main/scala/br/com/mystudies/scala/MatchingUsingExtractors.scala)
 * [Regular Expressions](https://github.com/robsonoduarte/learn-scala/blob/master/pragmatic-scala/pattern-matching-regular-expressions/src/main/scala/br/com/mystudies/scala/RegularExpressions.scala)
+* [Regular Expressions as Extractors](https://github.com/robsonoduarte/learn-scala/blob/master/pragmatic-scala/pattern-matching-regular-expressions/src/main/scala/br/com/mystudies/scala/RegularExpressionsAsExtractor.scala)
