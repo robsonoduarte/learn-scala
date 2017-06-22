@@ -1,3 +1,3 @@
 Programming Recursions
 ---------------------------------
-**README IN CONSTRUCTION**
+In this project we will see how use recursions in Scala, the topics are:
