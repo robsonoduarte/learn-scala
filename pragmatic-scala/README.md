@@ -12,6 +12,7 @@ Create Expressive, Concise, and Scalable Applications. The projects are separate
 * [Collections](https://github.com/robsonoduarte/learn-scala/tree/master/pragmatic-scala/collections)
 * [Pattern Matching and Regular Expressions](https://github.com/robsonoduarte/learn-scala/tree/master/pragmatic-scala/pattern-matching-regular-expressions)
 * [Handling Exceptions](https://github.com/robsonoduarte/learn-scala/tree/master/pragmatic-scala/handling-exceptions)
+* [Programming Recursions](https://github.com/robsonoduarte/learn-scala/tree/master/pragmatic-scala/programming-recursions)
 
 
 
