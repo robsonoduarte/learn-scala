@@ -3,7 +3,6 @@ package br.com.mystudies.scala
 object ASimpleRecursion extends App {
 
 
-
   println(factorial(5))
   println(factorial(10000)) // java.lang.StackOverflowError
 
@@ -12,6 +11,5 @@ object ASimpleRecursion extends App {
     if(number == 0 ) 1
     else number * factorial(number - 1)
   }
-
 
 }
