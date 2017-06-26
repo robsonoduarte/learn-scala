@@ -2,8 +2,6 @@ package br.com.mystudies.scala
 
 object TailCallOptimization extends App {
 
-
-
 /*
  *
    @scala.annotation.tailrec
