@@ -12,4 +12,5 @@ object ASimpleRecursion extends App {
     else number * factorial(number - 1)
   }
 
+
 }
