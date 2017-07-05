@@ -22,6 +22,51 @@ object ParallelCollections extends App {
 
 
 
+  def printWeatherData(weatherData: (String, String, String))={
+    val (city,temperature,condition) = weatherData
+    println(f"$city%-15s $temperature-6s $condition")
+  }
+
+
+
+
+
+
+  def timeSample(getData: List[String] => List[(String, String, String)]) = {
+    val cities = List("Houston,us", "Chicago,us", "Boston,us", "Minneapolis,us", "Oslo,norway",
+          "Tromso,norway", "Sydney,australia", "Berlin,gernany", "London,uk", "Krakow,poland",
+          "Rome,italy", "Stockholm,sweden", "Bangalore,india", "Brussels,belgium", "Reykjavik,iceland"
+        )
+
+      val start = System.nanoTime
+      getData(cities).sortBy(_._1).foreach(printWeatherData)
+      val end = System.nanoTime
+      println(s"Time taken: ${(end - start) / 1.0e9} sec")
+  }
+
+
+
+
+    // full syntax of line above
+/*  timeSample( (cities: List[String]) => cities.map(city => getWeatherData(city)))
+    timeSample( (cities: List[String]) => cities.map(getWeatherData(_)))*/
+
+  // Run in sequential mode in syntax simplified
+  timeSample { cities => cities map getWeatherData }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 }
