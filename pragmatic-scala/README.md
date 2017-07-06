@@ -14,6 +14,7 @@ Create Expressive, Concise, and Scalable Applications. The projects are separate
 * [Handling Exceptions](https://github.com/robsonoduarte/learn-scala/tree/master/pragmatic-scala/handling-exceptions)
 * [Programming Recursions](https://github.com/robsonoduarte/learn-scala/tree/master/pragmatic-scala/programming-recursions)
 * [Lazy Evaluations and Parallel Collections](https://github.com/robsonoduarte/learn-scala/tree/master/pragmatic-scala/lazy-evaluations-parallel-collections)
+* [Programming with Actors](https://github.com/robsonoduarte/learn-scala/tree/master/pragmatic-scala/programming-with-actors)
 
 
 
