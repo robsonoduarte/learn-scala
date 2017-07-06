@@ -55,8 +55,8 @@ object ParallelCollections extends App {
   timeSample { cities => cities map getWeatherData }
 
 
-
-
+  // Run in parallel mode
+  timeSample { cities => (cities.par map getWeatherData).toList }
 
 
 
