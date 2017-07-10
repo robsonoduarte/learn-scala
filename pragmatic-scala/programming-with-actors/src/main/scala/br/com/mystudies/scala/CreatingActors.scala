@@ -12,8 +12,8 @@ object CreatingActors extends App {
 
 class HollywoodActor extends Actor {
 
-  def receive= {
-    ???
+  def receive = {
+    case message => println(s"playing the role of $message")
   }
 
 }
