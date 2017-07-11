@@ -17,6 +17,8 @@ object CreatingActors extends App {
   hanks ! "Gump"
 
 
+  Thread sleep 100
+
   depp ! "Sparrow"
   hanks ! "Phillips"
 
