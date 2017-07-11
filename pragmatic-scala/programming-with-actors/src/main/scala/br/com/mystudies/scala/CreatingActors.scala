@@ -11,18 +11,27 @@ object CreatingActors extends App {
   val system = ActorSystem("sample")
 
   val depp = system.actorOf(Props[HollywoodActor])
+  val hanks = system.actorOf(Props[HollywoodActor])
 
   depp ! "Wonka"
+  hanks ! "Gump"
+
+
+  depp ! "Sparrow"
+  hanks ! "Phillips"
+
+
+  println(s"Calling from ${Thread currentThread}")
+
 
   system terminate
 }
 
 
 
+
 class HollywoodActor extends Actor {
-
   def receive = {
-    case message => println(s"playing the role of $message")
+    case message => println(s"$message ${Thread currentThread}")
   }
-
 }
