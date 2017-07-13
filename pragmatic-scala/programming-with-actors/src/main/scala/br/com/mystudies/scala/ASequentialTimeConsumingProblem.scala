@@ -21,6 +21,7 @@ object ASequentialTimeConsumingProblem extends App {
 
   while(filesToVist.size > 0){
     val head = filesToVist.head
+    println(s"Reading Files in $head.getAbsolutePath")
     filesToVist = filesToVist.tail
 
     val children = getChildren(head)
