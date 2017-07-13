@@ -4,3 +4,4 @@ In this project we will learned about actors, what problems they solve, and how 
 
 * [A Sequential Time Consuming Problem](https://github.com/robsonoduarte/learn-scala/blob/master/pragmatic-scala/programming-with-actors/src/main/scala/br/com/mystudies/scala/ASequentialTimeConsumingProblem.scala)
 * [Creating Actors](https://github.com/robsonoduarte/learn-scala/blob/master/pragmatic-scala/programming-with-actors/src/main/scala/br/com/mystudies/scala/CreatingActors.scala)
+* [Isolated Mutability](https://github.com/robsonoduarte/learn-scala/blob/master/pragmatic-scala/programming-with-actors/src/main/scala/br/com/mystudies/scala/IsolatedMutability.scala)
