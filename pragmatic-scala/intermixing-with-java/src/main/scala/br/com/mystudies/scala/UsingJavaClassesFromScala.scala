@@ -4,7 +4,7 @@ import java.util.Currency
 import br.com.mystudies.scala.investiment.Investiment
 import br.com.mystudies.scala.investiment.InvestimentType
 
-object UsingJavaClasseFromScala extends App {
+object UsingJavaClassesFromScala extends App {
 
 
    // using the class of standard JDK
