@@ -7,7 +7,7 @@ public class UsingTratisFromJava {
 
 		// see the Writable trait without method implemented
 		Writable writable = new AWritableJavaClass();
-		writable.write("I am implementing one trait of Scala without method's implementation");
+		writable.write("I am implementing one trait of Scala without method implemeted");
 
 
 		// see the Printable trait with method implemented
