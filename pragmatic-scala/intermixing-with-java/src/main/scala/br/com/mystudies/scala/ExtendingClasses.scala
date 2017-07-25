@@ -11,7 +11,7 @@ object ExtendingClasses extends App {
 
 
 abstract class Bird{
-  @throws(classOf[NoFlyException]) def fly // use the annotations to Scala compiler place the necessary signature for the method, than we can use it in Java class
+  @throws(classOf[NoFlyException]) def fly // use the annotations to Scala compiler place the necessary signature for the method, so we can use it in Java class
 }
 
 class Ostrich extends Bird{
