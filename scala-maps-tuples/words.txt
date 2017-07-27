@@ -1,6 +1,0 @@
-java
-scala
-perl
-python
-groovy
-ruby
