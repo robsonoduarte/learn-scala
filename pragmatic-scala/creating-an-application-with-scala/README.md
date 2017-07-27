@@ -4,3 +4,4 @@ In this project we will progressively build an application to find the new worth
 
 * [Getting Users' Input](https://github.com/robsonoduarte/learn-scala/blob/master/pragmatic-scala/creating-an-application-with-scala/src/main/scala/br/com/mystudies/scala/GettingUsersInput.scala)
 * [Reading and Writing Files](https://github.com/robsonoduarte/learn-scala/blob/master/pragmatic-scala/creating-an-application-with-scala/src/main/scala/br/com/mystudies/scala/ReadingAndWritingFiles.scala)
+* [XML as a First-Class Citizen](https://github.com/robsonoduarte/learn-scala/tree/master/pragmatic-scala/creating-an-application-with-scala)
