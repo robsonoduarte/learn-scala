@@ -11,5 +11,16 @@ object ReadingAndWritingXML extends App {
   println(s"File has ${(stocksAndUnits \\ "symbol").size} symbol elements")
 
 
+  val stocksAndUnitMap =
+   ( Map[String,Int]() /: (stocksAndUnits \ "symbol" )) { (map,symbolNode) =>
+     val ticker = (symbolNode \ "@ticker").toString()
+     val units = (symbolNode \ "units").text.toInt
+     map + (ticker -> units)
+  }
+
+  println(stocksAndUnitMap)
+  println(s"Number of symbol elements found is ${stocksAndUnitMap.size}")
+
+
 
 }
