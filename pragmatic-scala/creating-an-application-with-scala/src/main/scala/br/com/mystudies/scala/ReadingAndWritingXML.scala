@@ -27,15 +27,15 @@ object ReadingAndWritingXML extends App {
   // update and write the xml
   val updatedStocksAndUnitsXML =
     <symbols>
-			{stocksAndUnitMap map updateUnitsAndCreateXML}
-	  </symbols>
+	{stocksAndUnitMap map updateUnitsAndCreateXML}
+    </symbols>
 
 
   def updateUnitsAndCreateXML(element: (String, Int))= {
     val (ticker,units) = element
     <symbol ticker={ticker}>
-			<units>{units + 1}</units>
-		</symbol>
+	<units>{units + 1}</units>
+    </symbol>
   }
 
 
