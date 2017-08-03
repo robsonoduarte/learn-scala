@@ -26,10 +26,9 @@ object ReadingAndWritingXML extends App {
 
   // update and write the xml
   val updatedStocksAndUnitsXML =
-    <symbol>
+    <symbols>
 			{stocksAndUnitMap map updateUnitsAndCreateXML}
-	  </symbol>
-
+	  </symbols>
 
 
   def updateUnitsAndCreateXML(element: (String, Int))= {
@@ -40,10 +39,12 @@ object ReadingAndWritingXML extends App {
   }
 
 
+  // save the new xml
   XML save("stock2.xml", updatedStocksAndUnitsXML )
 
 
   val elementsCount = (XML.loadString("stock2.xml") \\ "symbol").size
   println(s"Saved file has ${elementsCount} symbol elements")
+
 
 }
