@@ -43,7 +43,7 @@ object ReadingAndWritingXML extends App {
   XML save("stock2.xml", updatedStocksAndUnitsXML )
 
 
-  val elementsCount = (XML.loadString("stock2.xml") \\ "symbol").size
+  val elementsCount = (XML.load("stock2.xml") \\ "symbol").size
   println(s"Saved file has ${elementsCount} symbol elements")
 
 
