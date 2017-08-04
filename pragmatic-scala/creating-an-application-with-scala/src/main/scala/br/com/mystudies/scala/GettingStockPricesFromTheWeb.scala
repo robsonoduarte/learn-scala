@@ -13,10 +13,11 @@ object GettingStockPricesFromTheWeb extends App {
 
   println(StockPriceFinder.getLatestClosingPrice("GOOG"))
   println(StockLoader.load)
-
-
-
 }
+
+
+
+
 
 
 
