@@ -11,8 +11,9 @@ import scala.xml.XML
 
 object GettingStockPricesFromTheWeb extends App {
 
-  println(StockPriceFinder.getLatestClosingPrice("GOOG"))
-  println(StockLoader.load)
+  val symbolsAndUnits = StockLoader load
+
+
 }
 
 
