@@ -8,10 +8,16 @@ import java.time.format.DateTimeFormatter._
 import java.util.Locale._
 import scala.io.Source
 import scala.xml.XML
+import java.time.temporal.ChronoUnit
+import java.time.LocalDate
 
 object GettingStockPricesFromTheWeb extends App {
 
   val symbolsAndUnits = StockLoader load
+
+
+
+  println(ChronoUnit.DAYS.between(now(), LocalDate.of(2018, 8, 1)))
 
 
 }
