@@ -16,9 +16,7 @@ object GettingStockPricesFromTheWeb extends App {
   val symbolsAndUnits = StockLoader load
 
 
-
   println(ChronoUnit.DAYS.between(now(), LocalDate.of(2018, 8, 1)))
-
 
 }
 
