@@ -4,7 +4,6 @@ import scala.xml.XML
 
 object ReadingAndWritingXML extends App {
 
-
   // read xml
   val stocksAndUnits = XML load "stocks.xml"
 
@@ -45,6 +44,5 @@ object ReadingAndWritingXML extends App {
 
   val elementsCount = (XML.load("stock2.xml") \\ "symbol").size
   println(s"Saved file has ${elementsCount} symbol elements")
-
 
 }
