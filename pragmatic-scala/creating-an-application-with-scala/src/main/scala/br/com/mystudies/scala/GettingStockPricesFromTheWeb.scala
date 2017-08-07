@@ -29,7 +29,6 @@ object StockPriceFinder{
     val closingPrice = data.split("\n")(1).split(",")(4).toDouble
     closingPrice
   }
-
   private def yesterday = encode(now.minusDays(1).format(ofPattern("MMM d, yyyy",US)))
 }
 
