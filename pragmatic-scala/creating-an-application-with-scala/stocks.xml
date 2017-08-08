@@ -1,7 +1,6 @@
 <symbols>
 	<symbol ticker="AAPL"><units>200</units></symbol>
 	<symbol ticker="ADBE"><units>125</units></symbol>
-	<symbol ticker="ALU"><units>150</units></symbol>
 	<symbol ticker="AMD"><units>150</units></symbol>
 	<symbol ticker="CSCO"><units>250</units></symbol>
 	<symbol ticker="HPQ"><units>225</units></symbol>
