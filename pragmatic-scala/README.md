@@ -17,7 +17,7 @@ Create Expressive, Concise, and Scalable Applications. The projects are separate
 * [Programming with Actors](https://github.com/robsonoduarte/learn-scala/tree/master/pragmatic-scala/programming-with-actors)
 * [Intermixing with Java](https://github.com/robsonoduarte/learn-scala/tree/master/pragmatic-scala/intermixing-with-java)
 * [Creating an Application with Scala](https://github.com/robsonoduarte/learn-scala/tree/master/pragmatic-scala/creating-an-application-with-scala)
-
+* [Unit Testing](https://github.com/robsonoduarte/learn-scala/tree/master/pragmatic-scala/unit-testing)
 
 
 
