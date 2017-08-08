@@ -6,17 +6,33 @@ import java.net.URLEncoder._
 import java.time.LocalDate._
 import java.time.format.DateTimeFormatter._
 import java.util.Locale._
+import java.lang.System._
 import scala.io.Source
 import scala.xml.XML
-import java.time.temporal.ChronoUnit
-import java.time.LocalDate
+
 
 object GettingStockPricesFromTheWeb extends App {
 
   val symbolsAndUnits = StockLoader load
 
+  println("Ticker Units Closing Price($) Total Value($)")
 
-  println(ChronoUnit.DAYS.between(now(), LocalDate.of(2018, 8, 1)))
+  val startTime = nanoTime
+
+  val valuesAndWorth = symbolsAndUnits.keys.map{ symbol =>
+    val units = symbolsAndUnits(symbol)
+    val latestClosingPrice = StockPriceFinder getLatestClosingPrice symbol
+    val value = units * latestClosingPrice
+
+    (symbol, units, latestClosingPrice, value)
+  }
+
+
+  println(valuesAndWorth)
+
+
+
+
 
 }
 
@@ -28,7 +44,7 @@ object GettingStockPricesFromTheWeb extends App {
 
 object StockPriceFinder{
   def getLatestClosingPrice(symbol: String) ={
-    val url = s"http://www.google.com/finance/historical?q=NASDAQ:${symbol}&startdate=${yesterday}&output=csv"
+    val url = s"http://www.google.com/finance/historical?q=${symbol}&startdate=${yesterday}&output=csv"
     val data = Source.fromURL(url).mkString
     val closingPrice = data.split("\n")(1).split(",")(4).toDouble
     closingPrice
