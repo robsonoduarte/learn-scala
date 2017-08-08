@@ -19,7 +19,9 @@ object GettingStockPricesFromTheWeb extends App {
 
   val startTime = nanoTime
 
-  val valuesAndWorth = symbolsAndUnits.keys.map{ symbol =>
+
+  // to see the difference time between when run in sequential mode and the parallel mode remove the comment.
+  val valuesAndWorth = symbolsAndUnits.keys/*.par*/.map{ symbol =>
     val units = symbolsAndUnits(symbol)
     val latestClosingPrice = StockPriceFinder getLatestClosingPrice symbol
     val value = units * latestClosingPrice
