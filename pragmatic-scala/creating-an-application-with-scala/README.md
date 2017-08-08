@@ -6,3 +6,4 @@ In this project we will progressively build an application to find the new worth
 * [Reading and Writing Files](https://github.com/robsonoduarte/learn-scala/blob/master/pragmatic-scala/creating-an-application-with-scala/src/main/scala/br/com/mystudies/scala/ReadingAndWritingFiles.scala)
 * [XML as a First-Class Citizen](https://github.com/robsonoduarte/learn-scala/blob/master/pragmatic-scala/creating-an-application-with-scala/src/main/scala/br/com/mystudies/scala/XMLAsAFirstClassCitizen.scala)
 * [Reading and Writing XML](https://github.com/robsonoduarte/learn-scala/blob/master/pragmatic-scala/creating-an-application-with-scala/src/main/scala/br/com/mystudies/scala/ReadingAndWritingXML.scala)
+* [Getting Stock Prices From The Web ( the app )](https://github.com/robsonoduarte/learn-scala/blob/master/pragmatic-scala/creating-an-application-with-scala/src/main/scala/br/com/mystudies/scala/GettingStockPricesFromTheWeb.scala)
