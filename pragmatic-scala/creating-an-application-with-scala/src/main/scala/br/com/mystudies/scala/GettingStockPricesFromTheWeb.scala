@@ -27,17 +27,12 @@ object GettingStockPricesFromTheWeb extends App {
     (symbol, units, latestClosingPrice, value)
   }
 
-
-
   val netWorth = (0.0 /: valuesAndWorth){ (worth, valueAndWorth) =>
     val (_,_,_, value) = valueAndWorth
     worth + value
   }
 
-
   val endTime = nanoTime
-
-
 
   valuesAndWorth.toList.sortBy{_._1}.foreach{ valueAndWorth =>
     val (symbol, units, lastesClosingPrice, value) = valueAndWorth
@@ -47,8 +42,6 @@ object GettingStockPricesFromTheWeb extends App {
 
   println(f"The total value of your investments is $$$netWorth%.2f")
   println(f"Took ${(endTime - startTime) / 1000000000.0}%.2f seconds")
-
-
 }
 
 
