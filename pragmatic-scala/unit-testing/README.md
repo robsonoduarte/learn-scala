@@ -1,3 +1,3 @@
 Unit Testing
 -----------------------
-**README IN CONSTRUCTION**
+In this project we will see a short introduction and some recommendations about Unit Test with Scala, **the topics are**:
