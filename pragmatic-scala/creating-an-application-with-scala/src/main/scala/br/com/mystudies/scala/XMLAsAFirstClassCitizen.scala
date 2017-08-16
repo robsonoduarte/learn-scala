@@ -47,27 +47,4 @@ object XMLAsAFirstClassCitizen extends App {
   }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
