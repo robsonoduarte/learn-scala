@@ -10,7 +10,6 @@ object ReadingAndWritingXML extends App {
   println(stocksAndUnits.getClass)
   println(s"File has ${(stocksAndUnits \\ "symbol").size} symbol elements")
 
-
   // map the xml in new map(ticker -> units)
   val stocksAndUnitMap =
    ( Map[String,Int]() /: (stocksAndUnits \ "symbol" )) { (map,symbolNode) =>
@@ -40,7 +39,6 @@ object ReadingAndWritingXML extends App {
 
   // save the new xml
   XML save("stock2.xml", updatedStocksAndUnitsXML )
-
 
   val elementsCount = (XML.load("stock2.xml") \\ "symbol").size
   println(s"Saved file has ${elementsCount} symbol elements")
