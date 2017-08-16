@@ -49,9 +49,6 @@ object GettingStockPricesFromTheWeb extends App {
 
 
 
-
-
-
 object StockPriceFinder{
   def getLatestClosingPrice(symbol: String) ={
     val url = s"http://www.google.com/finance/historical?q=${symbol}&startdate=${yesterday}&output=csv"
