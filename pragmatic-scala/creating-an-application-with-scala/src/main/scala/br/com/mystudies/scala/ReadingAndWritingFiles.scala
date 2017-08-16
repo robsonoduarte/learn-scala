@@ -6,12 +6,10 @@ import scala.io.Source
 
 object ReadingAndWritingFiles extends App {
 
-
   // using the java.io to create an write in file
   val writer = new PrintWriter(new File("symbols.txt"))
   writer write "AAPL"
   writer.close
-
 
   // using the Scala's Source class and it companion object
   println("*** The content of the file you rea is: ")
