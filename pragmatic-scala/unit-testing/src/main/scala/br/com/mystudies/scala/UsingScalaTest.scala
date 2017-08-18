@@ -24,5 +24,4 @@ class UsingScalaTest extends FlatSpec with Matchers{
     list.size should be(2)
   }
 
-
 }
