@@ -11,7 +11,6 @@ class UsingMockito extends FlatSpec with Matchers {
     test(wordScore)
   }
 
-
 }
 
 
