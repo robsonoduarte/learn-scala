@@ -46,5 +46,4 @@ object XMLAsAFirstClassCitizen extends App {
         println("%-7s %s".format(symbolNode \ "@ticker", (symbolNode \ "units").text))
   }
 
-
 }
