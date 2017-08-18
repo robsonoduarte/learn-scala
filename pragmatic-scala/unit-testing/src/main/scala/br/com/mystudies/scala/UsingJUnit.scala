@@ -11,6 +11,4 @@ class UsingJUnit {
     assertEquals(2, list size)
   }
 
-
-
 }
