@@ -29,7 +29,6 @@ object XMLAsAFirstClassCitizen extends App {
   println(unitNodes.getClass)
   println(unitNodes.head.text)
 
-
   println("--------------------------------------------------------")
 
   // using the pattern match
@@ -45,5 +44,4 @@ object XMLAsAFirstClassCitizen extends App {
       for(symbolNode @ <symbol>{_*}</symbol> <- symbolsNodes)
         println("%-7s %s".format(symbolNode \ "@ticker", (symbolNode \ "units").text))
   }
-
 }
