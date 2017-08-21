@@ -28,14 +28,12 @@ object ReadingAndWritingXML extends App {
 	{stocksAndUnitMap map updateUnitsAndCreateXML}
     </symbols>
 
-
   def updateUnitsAndCreateXML(element: (String, Int))= {
     val (ticker,units) = element
     <symbol ticker={ticker}>
 	<units>{units + 1}</units>
     </symbol>
   }
-
 
   // save the new xml
   XML save("stock2.xml", updatedStocksAndUnitsXML )
