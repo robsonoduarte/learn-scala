@@ -15,17 +15,17 @@ class UsingMockito extends FlatSpec with Matchers {
   }
 
 
-  "score" should "return 2 for wordk with two vowels" in {
+  "score" should "return 2 for word with two vowels" in {
     withWordScorer { _.score("ai") should be (2) }
   }
 
 
-  "score" should "return 8 for wordk with four consonants" in {
+  "score" should "return 8 for word with four consonants" in {
     withWordScorer { _.score("myth") should be (8) }
   }
 
 
-  "score" should "return 7 for wordk with an vowel and three consonants" in {
+  "score" should "return 7 for word with an vowel and three consonants" in {
     withWordScorer { _.score("that") should be (7) }
   }
 
