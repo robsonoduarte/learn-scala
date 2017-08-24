@@ -11,9 +11,33 @@ class UsingMockito extends FlatSpec with Matchers {
     test(wordScore)
   }
 
+
+  "score" should "return 0 for an empty word" in {
+    withWordScorer { wordScore => wordScore.score("") should be (0) }
+  }
+
+
+  "score" should "return 2 for wordk with two vowels" in {
+    withWordScorer { _.score("ai") should be (2) }
+  }
+
+
+  "score" should "return 8 for wordk with four consonants" in {
+    withWordScorer { _.score("myth") should be (8) }
+  }
+
+
+  "score" should "return 7 for wordk with an vowel and three consonants" in {
+    withWordScorer { _.score("that") should be (7) }
+  }
+
 }
 
 
 class WordScore(){
- // private val VOWELS =
-}
+  private val VOWELS = List('a', 'e', 'i', 'o', 'u')
+
+  def score(word: String) ={
+    (0 /: word){ (total,letter) => total + (if(VOWELS.contains(letter)) 1 else 2)}
+  }
+ }
