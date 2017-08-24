@@ -6,10 +6,8 @@ import org.scalatest.Matchers
 class UsingMockito extends FlatSpec with Matchers {
 
 
-  def withWordScorer(test: WordScore => Unit){
-    val wordScore = new WordScore
-    test(wordScore)
-  }
+  def withWordScorer(test: WordScore => Unit) = test(new WordScore)
+
 
 
   "score" should "return 0 for an empty word" in {
