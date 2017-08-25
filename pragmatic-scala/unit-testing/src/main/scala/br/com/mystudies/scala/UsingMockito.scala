@@ -34,12 +34,10 @@ class UsingMockito extends FlatSpec with Matchers {
 
 class WordScore(){
   private val VOWELS = List('a', 'e', 'i', 'o', 'u')
-
   def score(word: String) ={
     (0 /: word){ (total,letter) => total + (if(VOWELS.contains(letter)) 1 else 2)}
 
     // or ->  word.foldLeft(0)((total,letter) => total + (if(VOWELS.contains(letter)) 1 else 2) )
     // or ->  word.foldLeft(0)((total: Int,letter:Char) => total + (if(VOWELS.contains(letter)) 1 else 2) )
-
   }
  }
