@@ -41,3 +41,8 @@ class WordScore(){
     // or ->  word.foldLeft(0)((total: Int,letter:Char) => total + (if(VOWELS.contains(letter)) 1 else 2) )
   }
  }
+
+
+trait SpellChecker{
+  def isCorrect(word: String) : Boolean
+}
