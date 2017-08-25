@@ -10,12 +10,12 @@ import org.scalatest.mockito.MockitoSugar
 class UsingMockito extends FlatSpec with Matchers with MockitoSugar{
 
   def withWordScorer(test: WordScore => Unit) =  {
-    val speelChecker = mock[SpellChecker]
-    when(speelChecker.isCorrect(anyString)).thenReturn(true)
+    val spellChecker = mock[SpellChecker]
+    when(spellChecker.isCorrect(anyString)).thenReturn(true)
 
-    test(new WordScore(speelChecker))
+    test(new WordScore(spellChecker))
 
-    verify(speelChecker, times(1)).isCorrect(anyString)
+    verify(spellChecker, times(1)).isCorrect(anyString)
   }
 
 
@@ -35,17 +35,38 @@ class UsingMockito extends FlatSpec with Matchers with MockitoSugar{
   "score" should "return 7 for word with an vowel and three consonants" in {
     withWordScorer { _.score("that") should be (7) }
   }
+
+
+  "score" should "return 0 from word with icorret spelling " in {
+    val spellChecker = mock[SpellChecker]
+    when(spellChecker.isCorrect("aoe")).thenReturn(false)
+    val wordScore = new WordScore(spellChecker)
+
+    wordScore.score("aoe") should be (0)
+
+    verify(spellChecker, times(1)).isCorrect("aoe")
+
+  }
+
+
+
+
+
+
 }
 
 
 class WordScore(spellChecker: SpellChecker){
   private val VOWELS = List('a', 'e', 'i', 'o', 'u')
   def score(word: String) ={
-		 spellChecker.isCorrect(word)
+		if(spellChecker.isCorrect(word))
     (0 /: word){ (total,letter) => total + (if(VOWELS.contains(letter)) 1 else 2)}
 
     // or ->  word.foldLeft(0)((total,letter) => total + (if(VOWELS.contains(letter)) 1 else 2) )
     // or ->  word.foldLeft(0)((total: Int,letter:Char) => total + (if(VOWELS.contains(letter)) 1 else 2) )
+
+		else
+		  0
   }
  }
 
