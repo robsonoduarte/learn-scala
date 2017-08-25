@@ -47,12 +47,6 @@ class UsingMockito extends FlatSpec with Matchers with MockitoSugar{
     verify(spellChecker, times(1)).isCorrect("aoe")
 
   }
-
-
-
-
-
-
 }
 
 
