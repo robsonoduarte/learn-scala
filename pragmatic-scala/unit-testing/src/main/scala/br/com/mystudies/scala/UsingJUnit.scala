@@ -10,5 +10,4 @@ class UsingJUnit {
     val list = List("Milk","Sugar")
     assertEquals(2, list size)
   }
-
 }
