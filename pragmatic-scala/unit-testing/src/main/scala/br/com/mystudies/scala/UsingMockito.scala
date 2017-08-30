@@ -31,11 +31,9 @@ class UsingMockito extends FlatSpec with Matchers with MockitoSugar{
     withWordScorer { _.score("myth") should be (8) }
   }
 
-
   "score" should "return 7 for word with an vowel and three consonants" in {
     withWordScorer { _.score("that") should be (7) }
   }
-
 
   "score" should "return 0 from word with icorret spelling " in {
     val spellChecker = mock[SpellChecker]
