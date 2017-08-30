@@ -6,7 +6,6 @@ import java.util.ArrayList
 
 class UsingScalaTest extends FlatSpec with Matchers{
 
-
   trait EmpytArrayList{
     val list = new ArrayList[String]
   }
