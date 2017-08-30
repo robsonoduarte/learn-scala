@@ -11,11 +11,9 @@ class UsingScalaTest extends FlatSpec with Matchers{
     val list = new ArrayList[String]
   }
 
-
   "a list" should "be empty on create" in new EmpytArrayList{
     list.size should be(0)
   }
-
 
   "a list" should "increase in size upon add" in new EmpytArrayList{
     list add "Milk"
