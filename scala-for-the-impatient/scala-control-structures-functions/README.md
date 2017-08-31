@@ -1,5 +1,5 @@
-scala-control-structures-functions
+Scala Control Structures Functions
 ==================================
 
-Project for studies about scala's structures and functions (basic).
+README IN CONSTRUCTION
 
