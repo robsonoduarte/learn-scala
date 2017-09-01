@@ -1,6 +1,6 @@
-scala-maps-tuples
+Scala Maps Tuples
 =================
 
-Project for studies about scala's maps and tuples ( basic )  
+README IN CONSTRUCTION
 
 
