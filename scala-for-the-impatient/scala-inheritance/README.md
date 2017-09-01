@@ -1,4 +1,3 @@
-scala-inheritance
+Scala Inheritance
 =================
-
-Project for studies about scala's inheritance
+READ IN CONSTRUCTION
