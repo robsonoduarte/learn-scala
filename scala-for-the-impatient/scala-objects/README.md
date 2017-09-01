@@ -1,5 +1,5 @@
-scala-objects
+Scala Objects
 =============
 
-Project for studies about scala's objects.
+README IN CONSTRUCTION
 
