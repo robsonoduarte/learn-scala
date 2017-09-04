@@ -1,4 +1,4 @@
-Pattern Matching Case Classes
+Pattern Matching and Case Classes
 ======================
 README IN CONSTRUCTION
 
