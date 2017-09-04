@@ -1,5 +1,5 @@
-scala-traits
+Scala Traits
 =============
 
-Project for studies about scala's traits.
+README IN CONSTRUCTION
 
