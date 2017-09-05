@@ -1,6 +1,6 @@
 Scala Arrays
 ============
 
-README IN CONSTRUCTION
+**README IN CONSTRUCTION**
 
 
