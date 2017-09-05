@@ -1,4 +1,4 @@
 Scala Classes
 =============
 
-README IN CONSTRUCTION
+**README IN CONSTRUCTION**
