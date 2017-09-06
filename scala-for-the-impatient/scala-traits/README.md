@@ -1,5 +1,5 @@
 Scala Traits
 =============
 
-README IN CONSTRUCTION
+**README IN CONSTRUCTION**
 
