@@ -1,5 +1,5 @@
 Scala Objects
 =============
 
-README IN CONSTRUCTION
+**README IN CONSTRUCTION**
 
