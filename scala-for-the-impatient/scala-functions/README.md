@@ -1,5 +1,5 @@
 Scala Functions
 ======================
 
-README IN CONSTRUCTION
+**README IN CONSTRUCTION**
 
