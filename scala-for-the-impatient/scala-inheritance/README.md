@@ -1,3 +1,3 @@
 Scala Inheritance
 =================
-READ IN CONSTRUCTION
+**READ IN CONSTRUCTION**
