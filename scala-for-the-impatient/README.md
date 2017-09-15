@@ -1,3 +1,10 @@
 Scala for the Impatient
 =======================
-***README IN CONSTRUCTION***
+In this repo we will show to developers what Scala can do and how to do it, **the topics are**:
+
+* [Control Structures and Functions](https://github.com/robsonoduarte/learn-scala/tree/master/scala-for-the-impatient/scala-control-structures-functions)
+
+
+*All projects in here repo are based in the examples of this book:*
+
+> [Scala for the Impatient by Cay S. Horstann](http://www.horstmann.com/scala/index.html)
