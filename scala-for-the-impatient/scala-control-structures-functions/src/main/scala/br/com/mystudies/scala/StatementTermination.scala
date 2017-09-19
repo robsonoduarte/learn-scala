@@ -17,7 +17,9 @@ object StatementTermination extends App {
     z + 1
   }
 
-
+  // we can write one statement in two line when ends the line with one symbol
+  def foo4(x: Int, y: Int) = y * 10 +
+    x + 10
 
 
 
@@ -26,5 +28,6 @@ object StatementTermination extends App {
   println(foo1(2,2))
   println(foo2(2,2))
   println(foo3(2,2))
+  println(foo4(2,2))
 
 }
