@@ -18,7 +18,7 @@ object Loops extends App {
 
   // if you don't using the 1 to n ( inclusive ) you can use:
    for(x <- 0 until 10 )
-     println(s"Value of i: ${x}")
+     println(s"Value of x: ${x}")
 
 
 
