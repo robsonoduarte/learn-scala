@@ -16,6 +16,12 @@ object Loops extends App {
     println(s"Value of i: ${i}")
 
 
+  // if you don't using the 1 to n ( inclusive ) you can use:
+   for(x <- 0 until 10 )
+     println(s"Value of i: ${x}")
+
+
+
   // for in String
   for( c <- "Hello")
     print(c)
