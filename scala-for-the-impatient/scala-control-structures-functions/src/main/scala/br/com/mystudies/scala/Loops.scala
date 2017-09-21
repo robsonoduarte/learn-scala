@@ -16,4 +16,8 @@ object Loops extends App {
     println(s"Value of i: ${i}")
 
 
+  // for in String
+  for( c <- "Hello")
+    print(c)
+
 }
