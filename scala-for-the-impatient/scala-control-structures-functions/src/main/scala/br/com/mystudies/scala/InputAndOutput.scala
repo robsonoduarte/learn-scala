@@ -6,5 +6,7 @@ object InputAndOutput extends App {
   print("Answer: ")
   println(42)
 
+  // for print with format use printf
+  printf("Hello, %s! You are %d years old.\n", "Fred", 42)
 
 }
