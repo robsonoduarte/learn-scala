@@ -5,5 +5,5 @@ In this repo, we will learn how to implement conditions,loops and functions in S
 
 * [Conditional Expressions](https://github.com/robsonoduarte/learn-scala/blob/master/scala-for-the-impatient/scala-control-structures-functions/src/main/scala/br/com/mystudies/scala/ConditionalExpressions.scala)
 * [Statement Termination](https://github.com/robsonoduarte/learn-scala/blob/master/scala-for-the-impatient/scala-control-structures-functions/src/main/scala/br/com/mystudies/scala/StatementTermination.scala)
-* [Block Expressions And Assignments](https://github.com/robsonoduarte/learn-scala/tree/master/scala-for-the-impatient/scala-control-structures-functions)
+* [Block Expressions And Assignments](https://github.com/robsonoduarte/learn-scala/blob/master/scala-for-the-impatient/scala-control-structures-functions/src/main/scala/br/com/mystudies/scala/BlockExpressionsAndAssignments.scala)
 
