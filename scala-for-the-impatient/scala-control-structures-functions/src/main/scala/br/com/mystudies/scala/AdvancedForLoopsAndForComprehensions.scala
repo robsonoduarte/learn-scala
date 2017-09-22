@@ -15,6 +15,15 @@ object AdvancedForLoopsAndForComprehensions extends App {
   for(i <- 1 to 3; j <- 1 to 3)
     print( s"${(10 * i + j)} " )
 
+  println()
+
+  // using the guard ( Boolean condition )
+  for(i <- 1 to 3; j <-1 to 3 if i != j)
+    print(s"${(10 * i + j)} ")
+
+
+
+
 
 
 }
