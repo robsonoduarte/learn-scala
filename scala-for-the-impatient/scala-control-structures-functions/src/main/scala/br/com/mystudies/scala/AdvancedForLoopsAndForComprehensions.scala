@@ -14,19 +14,22 @@ object AdvancedForLoopsAndForComprehensions extends App {
   // can do with multiple generators on the for
   for(i <- 1 to 3; j <- 1 to 3)
     print( s"${(10 * i + j)} " )
-
-  println()
+    println()
 
   // using the guard ( Boolean condition )
   for(i <- 1 to 3; j <-1 to 3 if i != j)
     print(s"${(10 * i + j)} ")
-
-   println()
+    println()
 
   // add variable in the for and use It
   for(i <- 1 to 3; from = 4 - i; j <- from to 3 )
     print(s"${(10 * i + j)} ")
+    println()
 
+
+  // using the yield
+  var x =  for(i <- 1 to 10) yield i % 3
+  println(x)
 
 
 
