@@ -8,4 +8,5 @@ In this repo, we will learn how to implement conditions,loops and functions in S
 * [Block Expressions And Assignments](https://github.com/robsonoduarte/learn-scala/blob/master/scala-for-the-impatient/scala-control-structures-functions/src/main/scala/br/com/mystudies/scala/BlockExpressionsAndAssignments.scala)
 * [Input and Output](https://github.com/robsonoduarte/learn-scala/blob/master/scala-for-the-impatient/scala-control-structures-functions/src/main/scala/br/com/mystudies/scala/InputAndOutput.scala)
 * [Loops](https://github.com/robsonoduarte/learn-scala/blob/master/scala-for-the-impatient/scala-control-structures-functions/src/main/scala/br/com/mystudies/scala/Loops.scala)
+* [Advanced for Loops and for Comprehensions](https://github.com/robsonoduarte/learn-scala/blob/master/scala-for-the-impatient/scala-control-structures-functions/src/main/scala/br/com/mystudies/scala/AdvancedForLoopsAndForComprehensions.scala)
 
