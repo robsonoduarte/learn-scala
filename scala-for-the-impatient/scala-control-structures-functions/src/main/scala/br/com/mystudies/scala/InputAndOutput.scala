@@ -16,4 +16,5 @@ object InputAndOutput extends App {
   print("You age: ")
   val age = readInt
   printf("Hello, %s! Next year, you will be %d.\n", name, age + 1)
+  
 }
