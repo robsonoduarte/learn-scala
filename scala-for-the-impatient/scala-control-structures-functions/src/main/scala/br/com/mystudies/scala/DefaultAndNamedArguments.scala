@@ -11,8 +11,14 @@ object DefaultAndNamedArguments extends App {
   println(decorate("Hello"))
 
   // supply defaults arguments
-
   println(decorate("Hello", "<<<", ">>>"))
 
+
+  // supply fewer arguments
+  println(decorate("Hello", ">>>["))
+
+
+  // specify the parameter names when supply the arguments
+  println(decorate(left = "<<<", str = "Hello", rigth = ">>>"))
 
 }
