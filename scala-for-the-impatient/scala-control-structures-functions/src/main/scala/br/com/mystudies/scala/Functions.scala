@@ -7,17 +7,21 @@ object Functions extends App {
 
 
   // using o block when function requires more than one expression
-  def fac(n: Int) = {
+  def fac1(n: Int) = {
     var r = 1
     for(i <- 1 to n ) r = r * i
     r
   }
 
+  // with recursive function, must specify the return type:
+
+  def fac2(n: Int): Int = if(n <= 0) 1 else n * fac2(n -1)
 
 
 
   println(abs(4))
   println(abs(-4))
-  println(fac(4))
+  println(fac1(4))
+  println(fac2(4))
 
 }
