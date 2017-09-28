@@ -16,8 +16,6 @@ object VariableArguments extends App {
    // tell to compiler to be consider an argument sequence
    println(sum( 1 to 5: _*))
 
-
-
-
+   
 
 }
