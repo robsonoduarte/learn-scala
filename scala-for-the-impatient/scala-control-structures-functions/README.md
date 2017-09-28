@@ -10,3 +10,4 @@ In this repo, we will learn how to implement conditions,loops and functions in S
 * [Loops](https://github.com/robsonoduarte/learn-scala/blob/master/scala-for-the-impatient/scala-control-structures-functions/src/main/scala/br/com/mystudies/scala/Loops.scala)
 * [Advanced for Loops and for Comprehensions](https://github.com/robsonoduarte/learn-scala/blob/master/scala-for-the-impatient/scala-control-structures-functions/src/main/scala/br/com/mystudies/scala/AdvancedForLoopsAndForComprehensions.scala)
 * [Functions](https://github.com/robsonoduarte/learn-scala/blob/master/scala-for-the-impatient/scala-control-structures-functions/src/main/scala/br/com/mystudies/scala/Functions.scala)
+* [Variable Arguments](https://github.com/robsonoduarte/learn-scala/blob/master/scala-for-the-impatient/scala-control-structures-functions/src/main/scala/br/com/mystudies/scala/VariableArguments.scala)
