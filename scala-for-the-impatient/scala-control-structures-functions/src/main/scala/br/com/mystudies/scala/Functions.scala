@@ -13,7 +13,6 @@ object Functions extends App {
   }
 
   // with recursive function, must specify the return type:
-
   def fac2(n: Int): Int = if(n <= 0) 1 else n * fac2(n -1)
 
   println(abs(4))
