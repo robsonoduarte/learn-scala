@@ -15,7 +15,6 @@ object VariableArguments extends App {
    // tell to compiler to be consider an argument sequence
    println(sum( 1 to 5: _*))
 
-
    // using in recursive definition:
    def recursiveSum(args: Int*): Int = {
      if(args.length == 0) 0
