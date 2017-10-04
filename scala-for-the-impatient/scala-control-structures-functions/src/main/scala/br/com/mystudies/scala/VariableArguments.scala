@@ -20,4 +20,6 @@ object VariableArguments extends App {
      if(args.length == 0) 0
      else args.head + recursiveSum(args.tail : _*)
    }
+
+   println(recursiveSum(1, 4, 9, 16, 24))
 }
