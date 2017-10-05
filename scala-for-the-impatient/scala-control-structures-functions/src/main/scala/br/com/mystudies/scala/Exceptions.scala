@@ -13,7 +13,16 @@ object Exceptions extends App {
 
   // but in Scala has no checked exceptions
   println(sqrt(4))
-  println(sqrt(-4))
+
+
+
+  // the syntax for catching use pattern matching
+  try {
+	  println(sqrt(-4))
+  } catch {
+    case ex: Exception => ex.printStackTrace()
+  }
+
 
 
 
