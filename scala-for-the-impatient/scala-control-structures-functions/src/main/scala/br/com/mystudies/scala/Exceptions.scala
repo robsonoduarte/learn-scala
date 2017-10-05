@@ -21,6 +21,8 @@ object Exceptions extends App {
 	  println(sqrt(-4))
   } catch {
     case ex: Exception => ex.printStackTrace()
+  }finally{
+    print("Finally block")
   }
 
 
