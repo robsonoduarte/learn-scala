@@ -10,10 +10,8 @@ object Exceptions extends App {
   }
 
 
-
   // but in Scala has no checked exceptions
   println(sqrt(4))
-
 
 
   // the syntax for catching use pattern matching
