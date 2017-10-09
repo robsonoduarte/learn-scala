@@ -36,13 +36,11 @@ object AdvancedForLoopsAndForComprehensions extends App {
   val z = for(i <- 0 to 1 ; c <- "Hello") yield (c + 1).toChar
   println(z) // generate Vector
 
-
   // using the loop inside braces
   for{ i <- 1 to 3;
     from = 4 - i
     j <- from to 3
   }
   print(s"${(10 * i + j)} ")
-
 
 }
