@@ -9,4 +9,5 @@ object LazyValues extends App {
 
   // uncomment the print to see the lazy evaluated ( will throw one java.io.FileNotFoundException)
   //print(words)
+  
 }
