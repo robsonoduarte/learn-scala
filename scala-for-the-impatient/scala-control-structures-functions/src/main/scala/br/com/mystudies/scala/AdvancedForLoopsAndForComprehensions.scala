@@ -41,6 +41,7 @@ object AdvancedForLoopsAndForComprehensions extends App {
     from = 4 - i
     j <- from to 3
   }
+
   print(s"${(10 * i + j)} ")
 
 }
