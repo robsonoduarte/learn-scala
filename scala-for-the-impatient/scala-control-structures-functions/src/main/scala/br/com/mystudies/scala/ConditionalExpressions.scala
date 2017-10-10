@@ -14,8 +14,6 @@ object ConditionalExpressions extends App {
 	  // equivalent a condition above
 	  def ce4(x: Int) = if (x>0) 1 else ()
 
-
-
 	 println(ce1(-1).getClass())
 	 println(ce2(1).getClass())
 	 println(ce2(-1).getClass())
