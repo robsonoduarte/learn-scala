@@ -2,7 +2,6 @@ package br.com.mystudies.scala
 
 object XMLAsAFirstClassCitizen extends App {
 
-
   val xmlFragment =
   <symbols>
 	<symbol ticker="AAPL"><units>200</units></symbol>
@@ -19,7 +18,6 @@ object XMLAsAFirstClassCitizen extends App {
   val symbolsNodes =  xmlFragment \ "symbol"
   symbolsNodes foreach println
   println(symbolsNodes.getClass)
-
 
   println("--------------------------------------------------------")
 
