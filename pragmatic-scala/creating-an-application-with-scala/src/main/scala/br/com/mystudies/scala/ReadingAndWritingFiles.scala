@@ -23,5 +23,4 @@ object ReadingAndWritingFiles extends App {
   println(s"What's Source? : ${source}")
   println(s"Raw String: ${source.mkString}")
 
-
 }
