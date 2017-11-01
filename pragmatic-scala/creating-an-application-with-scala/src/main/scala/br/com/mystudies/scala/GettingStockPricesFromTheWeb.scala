@@ -19,7 +19,6 @@ object GettingStockPricesFromTheWeb extends App {
 
   val startTime = nanoTime
 
-
   // to see the difference time between when run in sequential mode and the parallel mode remove the comment.
   val valuesAndWorth = symbolsAndUnits.keys/*.par*/.map{ symbol =>
     val units = symbolsAndUnits(symbol)
@@ -56,7 +55,6 @@ object StockPriceFinder{
   }
   private def yesterday = encode(now.minusDays(1).format(ofPattern("MMM d, yyyy",US)))
 }
-
 
 object StockLoader{
   def load = {
