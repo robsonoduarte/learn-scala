@@ -6,7 +6,6 @@ object Access extends App {
 
   microwave.start
   microwave.stop
-
   //microwave.turnTable // don't compile
 }
 
