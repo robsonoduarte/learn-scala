@@ -19,9 +19,7 @@ public class Car {
 		return miles;
 	}
 
-
 	public void drive(int distance){
 		miles =+ abs(distance);
 	}
-
 }
