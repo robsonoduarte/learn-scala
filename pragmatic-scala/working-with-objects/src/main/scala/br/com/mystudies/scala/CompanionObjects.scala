@@ -14,8 +14,6 @@ object CompanionObjects extends App {
   println(s"Supported colors are: ${Printer.supportedColors}")
 }
 
-
-
 class Printer private (color: String) {
   println(s"Creating --> ${this}")
   override def toString = s"Printing the color --> $color"
