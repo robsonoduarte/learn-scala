@@ -9,8 +9,6 @@ object Access extends App {
   //microwave.turnTable // don't compile
 }
 
-
-
 class Microwave{
   // by default methods is plubic
   def start = println("started")
