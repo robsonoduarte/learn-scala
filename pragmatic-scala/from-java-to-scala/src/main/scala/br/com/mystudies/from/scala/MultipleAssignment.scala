@@ -9,9 +9,6 @@ object MultipleAssignment extends App {
 
 
 
-
-
-
   val (firstName, lastName, email) = getPersonInfo(1)
 
 
@@ -25,10 +22,7 @@ object MultipleAssignment extends App {
   //val (x, y) = getPersonInfo(1)
   //val (z,y,x,k) = getPersonInfo(1)
 
-
-
   val info = getPersonInfo(1)
-
 
   println(info._1)
   println(info._2)
