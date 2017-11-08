@@ -13,7 +13,6 @@ object SemicolonIsOptional extends App {
    val y = 2
 
 
-
    // but we need put the semicolon if start the new block of code
 
    // here Scala started a new code block
@@ -31,6 +30,4 @@ object SemicolonIsOptional extends App {
 
    println(list1.getClass)
    println(list2.getClass)
-
-
 }
