@@ -42,7 +42,6 @@ object String extends App {
     var price = 90
     val totalPrice = s"The amount of discount is $$${price * discount / 100} dollars"
     println(totalPrice)
-
   }
 
   
@@ -56,7 +55,6 @@ object String extends App {
     
     price = 50 // change after interpolation 
     println(totalPrice) // but the result is the same because the expression was captured at the time of interpolation 
-    
   }
   
   
