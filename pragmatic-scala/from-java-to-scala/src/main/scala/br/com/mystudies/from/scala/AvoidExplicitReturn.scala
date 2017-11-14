@@ -9,5 +9,4 @@ object AvoidExplicitReturn extends App{
   println(check1)
   println(check2)
   println(check3)
-
 }
