@@ -9,6 +9,5 @@ object LimitationsNormalFunctions extends App {
       }
       result
     }
-
     println(sum(10))
 }
