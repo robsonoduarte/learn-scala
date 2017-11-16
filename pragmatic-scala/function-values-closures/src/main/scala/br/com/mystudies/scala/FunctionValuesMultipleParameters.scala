@@ -38,7 +38,7 @@ object FunctionValuesMultipleParameters extends App {
   val sum2 = array.foldLeft(0){(x,y) => x + y}
   val max2 = array.foldLeft(MIN_VALUE)((x,y) => Math.max(x, y))
   println(s"Sum of elements in array is $sum2")
-	println(s"Max of elements in array is $max2")
+  println(s"Max of elements in array is $max2")
 
 
 
@@ -48,7 +48,7 @@ object FunctionValuesMultipleParameters extends App {
 	val sum3 = (0 /: array){(x,y) => x + y}
   val max3 = (MIN_VALUE /: array)((x,y) => Math.max(x, y))
   println(s"Sum of elements in array is $sum3")
-	println(s"Max of elements in array is $max3")
+  println(s"Max of elements in array is $max3")
 
 
 
@@ -68,6 +68,4 @@ object FunctionValuesMultipleParameters extends App {
      [error] (compile:compileIncremental) Compilation failed
      [error] Total time: 5 s, completed 17/03/2017 18:24:36
 	 */
-
-
 }
