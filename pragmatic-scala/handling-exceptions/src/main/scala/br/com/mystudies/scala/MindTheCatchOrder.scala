@@ -17,5 +17,4 @@ object MindTheCatchOrder extends App {
    *
    * Than the first case matches Exceptions and all of its subclass.
    */
-
 }
