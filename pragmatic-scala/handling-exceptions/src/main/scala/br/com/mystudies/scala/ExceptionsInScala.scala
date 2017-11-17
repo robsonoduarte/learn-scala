@@ -19,7 +19,6 @@ object ExceptionsInScala extends App {
       case _ : Throwable => println("something went wrong")
     }
   }
-
 }
 
 
