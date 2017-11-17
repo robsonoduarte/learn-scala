@@ -2,14 +2,9 @@ package br.com.mystudies.scala
 
 object RegularExpressionsAsExtractor extends App {
 
-
-
   process("GOOG:310.84")
   process("IBM:84.01")
   process("GE:15.96")
-
-
-
 
 
   def process(input: String){
@@ -21,5 +16,4 @@ object RegularExpressionsAsExtractor extends App {
       case _ => println(s"not processing $input")
     }
   }
-
 }
