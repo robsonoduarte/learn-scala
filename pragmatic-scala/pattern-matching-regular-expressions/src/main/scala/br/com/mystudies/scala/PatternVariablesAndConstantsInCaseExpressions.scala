@@ -22,7 +22,6 @@ object PatternVariablesAndConstantsInCaseExpressions extends App {
   }
 
   sample2.process(100)
-
 }
 
 
