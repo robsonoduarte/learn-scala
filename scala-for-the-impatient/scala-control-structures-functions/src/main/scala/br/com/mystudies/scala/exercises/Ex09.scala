@@ -9,5 +9,4 @@ object Ex09 extends App {
 
 
   println( product("Hello") == 9415087488L )
-
 }
