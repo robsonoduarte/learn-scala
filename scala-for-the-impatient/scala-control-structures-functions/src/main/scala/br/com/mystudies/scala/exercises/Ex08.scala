@@ -8,5 +8,4 @@ object Ex08 extends App {
   def product(s: String ) = s.map(_.toLong).product
 
   println( product("Hello") == 9415087488L)
-
 }
