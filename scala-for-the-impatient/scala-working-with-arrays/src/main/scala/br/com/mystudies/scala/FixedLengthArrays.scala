@@ -14,5 +14,15 @@ object FixedLengthArrays extends App {
 
 
 
+  // AN ARRAY WITH TEN ELEMENTS, ALL INITIALIZED WITH NULL
+  val s = new Array[String](10)
+
+  s(0) = "Robson"
+
+  println(s mkString " ")
+
+
+
+
 
 }
