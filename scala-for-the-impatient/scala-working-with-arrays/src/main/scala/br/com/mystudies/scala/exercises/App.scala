@@ -1,4 +1,4 @@
-package br.com.mystudies.scala
+package br.com.mystudies.scala.exercises
 import scala.collection.mutable.ArrayBuffer
 
 
