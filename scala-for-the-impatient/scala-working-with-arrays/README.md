@@ -1,6 +1,6 @@
 Scala Working with Arrays
 ============
 
-**README IN CONSTRUCTION**
+In this repo, we will learn how to workt with arrays in Scala, **the topics are**:
 
 
