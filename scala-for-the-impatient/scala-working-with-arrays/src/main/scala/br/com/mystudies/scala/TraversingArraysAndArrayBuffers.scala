@@ -10,7 +10,7 @@ object TraversingArraysAndArrayBuffers extends App {
     println(i)
 
    // visit by index
-  for( i <- 0 until a.length)
+  for(i <- 0 until a.length)
     println(a(i))
 
 
