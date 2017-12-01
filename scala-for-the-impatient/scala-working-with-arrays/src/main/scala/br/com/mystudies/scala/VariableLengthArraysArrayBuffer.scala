@@ -39,7 +39,4 @@ object VariableLengthArraysArrayBuffer extends App {
 
   // REMOVE MANY ELEMENTS
   b remove(2, 3) // => ArrayBuffer(1, 1, 2, 3, 5)
-
-
-
 }
