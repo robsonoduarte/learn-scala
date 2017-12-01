@@ -17,4 +17,5 @@ object TraversingArraysAndArrayBuffers extends App {
   // use for each
   a.foreach(println)
 
+
 }
