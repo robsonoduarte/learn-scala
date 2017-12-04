@@ -26,4 +26,5 @@ object FixedLengthArrays extends App {
   val a = Array("Robson", "Duarte")
 
   println( a mkString " ")
+
 }
