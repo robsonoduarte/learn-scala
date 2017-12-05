@@ -7,9 +7,14 @@ object TransformingArrays extends App {
 
 
   // use for(..) yield loop creates a new collection
-  var result = for( elem <- a ) yield 2 * elem
-  println( result mkString " " )
+  val r1 = for( elem <- a ) yield 2 * elem
+  println( r1 mkString " " )
 
+
+
+  // use a guard: an if inside the for
+  val r2 = for( elem <- a if elem % 2 == 0 ) yield 2 * elem
+  println( r2 mkString " " )
 
 
 }
