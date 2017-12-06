@@ -21,4 +21,5 @@ object TransformingArrays extends App {
   val r3 = a.filter(_ % 2 == 0).map(2 * _)
   println( r3 mkString " " )
 
+
 }
