@@ -1,6 +1,7 @@
 package br.com.mystudies.scala
 
 import scala.collection.mutable.ArrayBuffer
+import scala.util.Sorting
 
 object CommonsAlgorithms extends App {
 
@@ -22,4 +23,16 @@ object CommonsAlgorithms extends App {
   println(ab)
   println(sorted)
 
+
+  // use the scala.util
+  val a = Array(1,7,2,9)
+  Sorting.quickSort(a)
+
+
+  //display the contents
+  println(a.mkString(" and "))
+  println(a.mkString("<", ",", ">"))
+
+
+  
 }
