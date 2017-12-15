@@ -1,6 +1,6 @@
-Scala Maps Tuples
+Scala Maps and Tuples
 =================
 
-**README IN CONSTRUCTION**
+In this repo, we will learn how to work with Maps and Tuple in Scala, **the topics are**:
 
 
