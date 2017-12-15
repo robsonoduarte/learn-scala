@@ -9,5 +9,6 @@ In this repo, we will learn how to work with arrays in Scala, **the topics are**
 * [Transforming Arrays](https://github.com/robsonoduarte/learn-scala/blob/master/scala-for-the-impatient/scala-working-with-arrays/src/main/scala/br/com/mystudies/scala/TransformingArrays.scala)
 * [Multidimensional Arrays](https://github.com/robsonoduarte/learn-scala/blob/master/scala-for-the-impatient/scala-working-with-arrays/src/main/scala/br/com/mystudies/scala/MultidimensionalArrays.scala)
 * [Interoperating with Java](https://github.com/robsonoduarte/learn-scala/blob/master/scala-for-the-impatient/scala-working-with-arrays/src/main/scala/br/com/mystudies/scala/InteroperatingWithJava.scala)
+* [Exercises](https://github.com/robsonoduarte/learn-scala/tree/master/scala-for-the-impatient/scala-working-with-arrays/src/main/scala/br/com/mystudies/scala/exercises)
 
 
