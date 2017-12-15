@@ -14,3 +14,4 @@ In this repo, we will learn how to implement conditions,loops and functions in S
 * [Procedures](https://github.com/robsonoduarte/learn-scala/blob/master/scala-for-the-impatient/scala-control-structures-functions/src/main/scala/br/com/mystudies/scala/Procedures.scala)
 * [Lazy Values](https://github.com/robsonoduarte/learn-scala/blob/master/scala-for-the-impatient/scala-control-structures-functions/src/main/scala/br/com/mystudies/scala/LazyValues.scala)
 * [Exceptions](https://github.com/robsonoduarte/learn-scala/blob/master/scala-for-the-impatient/scala-control-structures-functions/src/main/scala/br/com/mystudies/scala/Exceptions.scala)
+* [Exercises](https://github.com/robsonoduarte/learn-scala/tree/master/scala-for-the-impatient/scala-control-structures-functions/src/main/scala/br/com/mystudies/scala/exercises)
