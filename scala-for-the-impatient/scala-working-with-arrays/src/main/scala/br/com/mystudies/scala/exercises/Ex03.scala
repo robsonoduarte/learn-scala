@@ -16,5 +16,4 @@ object Ex03 extends App {
 
 
   print( swaps(Array(2, 1, 4, 3, 5, 8)).deep == Array(1, 2, 3, 4, 8 ,5).deep)
-
 }
