@@ -9,5 +9,4 @@ object Ex04 extends App {
   def sortPositive(a:Array[Int]) = a.filter(_ > 0) ++ a.filter(_ <= 0)
 
   print(sortPositive(Array(-2,3,-4,0,1,-5)).deep == Array(3,1,-2,-4,0,-5).deep)
-
 }
