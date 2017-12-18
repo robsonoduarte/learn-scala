@@ -14,5 +14,4 @@ object Ex01 extends App {
 
 
   print(array.mkString(" "))
-
 }
