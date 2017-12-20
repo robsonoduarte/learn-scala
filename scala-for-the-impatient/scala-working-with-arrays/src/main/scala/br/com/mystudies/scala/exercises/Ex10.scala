@@ -22,5 +22,4 @@ object Ex10 extends App {
   val flavorsBuffer : Buffer[String] = flavors.getNativesForFlavor(DataFlavor.imageFlavor)
 
   flavorsBuffer.foreach(println)
-
 }
