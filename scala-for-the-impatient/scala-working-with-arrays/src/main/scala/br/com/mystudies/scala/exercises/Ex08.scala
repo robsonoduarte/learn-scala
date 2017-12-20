@@ -11,5 +11,4 @@ object Ex08 extends App {
 
   val a = Array(51,-42,30,-4,25,-51,8,42)
   val res = for (i <- 0 until a.length if (i<=a.indexWhere(_<0)||a(i)>0)) yield a(i)
-
 }
