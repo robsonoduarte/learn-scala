@@ -11,5 +11,4 @@ object Ex07 extends App {
 
 
   assert(removeDuplicates(Array(1,1,2,2,3,3,4,4)).deep == Array(1,2,3,4).deep)
-
 }
