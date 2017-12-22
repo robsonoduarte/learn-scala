@@ -1,5 +1,3 @@
 package br.com.mystudies.scala
 
-object ConstructingAMap extends App {
-  
-}
+object ConstructingAMap extends App {}
