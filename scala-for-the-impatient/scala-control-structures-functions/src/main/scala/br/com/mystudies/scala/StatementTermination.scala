@@ -25,4 +25,5 @@ object StatementTermination extends App {
   println(foo2(2,2))
   println(foo3(2,2))
   println(foo4(2,2))
+  
 }
