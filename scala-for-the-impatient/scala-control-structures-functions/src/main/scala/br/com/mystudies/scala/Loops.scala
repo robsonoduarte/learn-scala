@@ -22,5 +22,4 @@ object Loops extends App {
   for( c <- "Hello")
     print(c)
 
-
 }
