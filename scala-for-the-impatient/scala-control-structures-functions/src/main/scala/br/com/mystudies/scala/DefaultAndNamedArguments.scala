@@ -24,5 +24,4 @@ object DefaultAndNamedArguments extends App {
 
   // mix unnamed and named arguments
   println(decorate("Hello", rigth = "]<<<"))
-
 }
