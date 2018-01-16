@@ -19,4 +19,5 @@ object ConditionalExpressions extends App {
 	 println(ce2(-1).getClass())
 	 println(ce3(-1).getClass())
 	 println(ce4(-1).getClass())
+	
 }

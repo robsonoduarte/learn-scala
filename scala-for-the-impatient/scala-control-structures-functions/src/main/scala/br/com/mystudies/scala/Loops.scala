@@ -21,6 +21,4 @@ object Loops extends App {
   // for in String
   for( c <- "Hello")
     print(c)
-
-
 }

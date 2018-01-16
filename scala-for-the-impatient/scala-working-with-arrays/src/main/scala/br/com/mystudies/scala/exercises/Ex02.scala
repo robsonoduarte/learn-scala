@@ -17,5 +17,4 @@ object Ex02 extends App {
 
 
    print(x.deep == Array(1,2,3,4,8,5).deep)
-
 }

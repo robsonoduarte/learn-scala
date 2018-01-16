@@ -13,5 +13,4 @@ object Ex09 extends App {
   val x = TimeZone.getAvailableIDs.filter(_.startsWith(prefix)).map(_.stripPrefix(prefix)).sorted
 
   x.foreach(println)
-
 }
