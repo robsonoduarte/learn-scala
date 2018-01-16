@@ -14,6 +14,12 @@ object ConstructingAMap extends App {
   val scores2 = collection.mutable.Map("Alice" -> 12, "Bob" -> 3, "Cindy" -> 8 )
 
   println(scores2 )
-  println(scores2.getClass )
+  println(scores2.getClass)
+
+
+  // another syntax to create map
+  val scores3 = Map( ("Alice" ,10), ("Bob", 3), ("Cindy" , 8 ) )
+
+  println(scores3 )
 
 }
