@@ -10,12 +10,15 @@ object AccessingMapValues extends App {
 
     // check if contains the key
 
-    var scoreBob = if(scores contains "Bob") scores("Bob") else 0
+    val scoreBob = if(scores contains "Bob") scores("Bob") else 0
 
     assert( scoreBob == 3 )
 
 
+    // the shortcut getOrElse
+    val scoreRobson = scores.getOrElse("Robson", 0)
 
 
+    assert(scoreRobson == 0 )
 
 }
