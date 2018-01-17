@@ -11,8 +11,14 @@ object UpdatingMapValues extends App {
 
   assert( scores("Bob") == 10)
 
-  
-  
-  
+
+  // add new key/value
+
+  scores("Robson") = 15
+
+
+  assert(scores("Robson") == 15 )
+
+
 
 }
