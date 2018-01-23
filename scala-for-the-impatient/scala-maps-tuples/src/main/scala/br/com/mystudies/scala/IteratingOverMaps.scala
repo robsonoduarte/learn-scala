@@ -3,7 +3,7 @@ package br.com.mystudies.scala
 object IteratingOverMaps extends App {
 
 
-  val scores = Map("Bob" -> 10, "Cindy" -> 7, "Fred" -> 8)
+  val scores = Map("Bob" -> 10, "Cindy" -> 7, "Fred" -> 4)
 
 
   // access key/value
@@ -23,6 +23,10 @@ object IteratingOverMaps extends App {
 
 
 
+
+   // apply one function
+   val highScores = scores.filter{case (k,v) => v > 5}
+   print(highScores)
 
 
 }
