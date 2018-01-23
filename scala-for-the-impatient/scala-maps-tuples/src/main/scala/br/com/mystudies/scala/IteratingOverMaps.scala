@@ -12,5 +12,13 @@ object IteratingOverMaps extends App {
 
 
 
+  // only values
+  for( v <- scores.values)
+    print(v)
 
+
+
+    
+    
+    
 }
