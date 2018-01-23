@@ -8,3 +8,4 @@ In this repo, we will learn how to work with Maps and Tuples in Scala, **the top
 * [Updating Map Values](https://github.com/robsonoduarte/learn-scala/blob/master/scala-for-the-impatient/scala-maps-tuples/src/main/scala/br/com/mystudies/scala/UpdatingMapValues.scala)
 * [Iterating over Maps](https://github.com/robsonoduarte/learn-scala/blob/master/scala-for-the-impatient/scala-maps-tuples/src/main/scala/br/com/mystudies/scala/IteratingOverMaps.scala)
 * [Sorted Maps](https://github.com/robsonoduarte/learn-scala/blob/master/scala-for-the-impatient/scala-maps-tuples/src/main/scala/br/com/mystudies/scala/SortedMaps.scala)
+* [Interoperating with Java](https://github.com/robsonoduarte/learn-scala/blob/master/scala-for-the-impatient/scala-maps-tuples/src/main/scala/br/com/mystudies/scala/InteroperatingWithJava.scala)
