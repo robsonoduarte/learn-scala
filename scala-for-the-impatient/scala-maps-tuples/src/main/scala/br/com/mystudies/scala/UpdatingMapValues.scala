@@ -25,6 +25,10 @@ object UpdatingMapValues extends App {
   assert(scores.contains("Alice") == false)
 
 
+  // obtain a new map with one update
+  val newScores = scores + ( "Ana" -> 10, "Peter" -> 2)
+  assert( newScores("Robson") == 15 && newScores("Ana") == 10 && newScores("Peter") == 2 )
+
 
 
 }
