@@ -14,11 +14,15 @@ object IteratingOverMaps extends App {
 
   // only values
   for( v <- scores.values)
-    print(v)
+   println(v)
+
+
+   //reverse one map
+   val reverseMap = for((k,v) <- scores) yield (v,k)
+   print(reverseMap)
 
 
 
-    
-    
-    
+
+
 }
