@@ -22,12 +22,9 @@ object Tuples extends App {
 
 
  // function can return o tuple
-
  val t2 = "New York".partition(_.isUpper)
  assert(t2._1 == "NY")
  assert(t2._2 == "ew ork")
-
-
 
 
 
