@@ -20,5 +20,11 @@ object UpdatingMapValues extends App {
   assert(scores("Bob") == 11 && scores("Fred") == 7)
 
 
+  // to remove
+  scores -= "Alice"
+  assert(scores.contains("Alice") == false)
+
+
+
 
 }
