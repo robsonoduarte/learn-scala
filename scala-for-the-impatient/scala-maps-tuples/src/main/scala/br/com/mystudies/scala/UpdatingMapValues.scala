@@ -8,16 +8,16 @@ object UpdatingMapValues extends App {
 
   // update the mutable map
   scores("Bob") = 10
-
   assert( scores("Bob") == 10)
 
-
   // add new key/value
-
   scores("Robson") = 15
-
-
   assert(scores("Robson") == 15 )
+
+
+  // use the += operation do add multiple associations
+  scores += ("Bob" -> 11, "Fred" -> 7 )
+  assert(scores("Bob") == 11 && scores("Fred") == 7)
 
 
 
