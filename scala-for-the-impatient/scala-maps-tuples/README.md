@@ -5,4 +5,5 @@ In this repo, we will learn how to work with Maps and Tuples in Scala, **the top
 
 * [Constructing a Map](https://github.com/robsonoduarte/learn-scala/blob/master/scala-for-the-impatient/scala-maps-tuples/src/main/scala/br/com/mystudies/scala/ConstructingAMap.scala)
 * [Accessing Map Values](https://github.com/robsonoduarte/learn-scala/blob/master/scala-for-the-impatient/scala-maps-tuples/src/main/scala/br/com/mystudies/scala/AccessingMapValues.scala)
-
+* [Updating Map Values](https://github.com/robsonoduarte/learn-scala/blob/master/scala-for-the-impatient/scala-maps-tuples/src/main/scala/br/com/mystudies/scala/UpdatingMapValues.scala)
+* [Iterating over Maps](https://github.com/robsonoduarte/learn-scala/blob/master/scala-for-the-impatient/scala-maps-tuples/src/main/scala/br/com/mystudies/scala/IteratingOverMaps.scala)
