@@ -1,7 +1,10 @@
 java
+java
+scala
 scala
 perl
 python
 groovy
 ruby
+go
 go
