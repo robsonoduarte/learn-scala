@@ -59,19 +59,8 @@ object App {
   def main(args : Array[String]) {
 
 
-  	  val map = new HashMap[String,Int]
-
-  	  val words =  Source.fromFile("words.txt")
 
 
-  	  for( word <- words getLines ){
-  	    map put( word , 1  )
-  	  }
-
-  	  println(map)
-  	  println(map size)
-  	  println(map toMap ) // immutable map
-      println(TreeMap(map.toMap.toArray:_*) ) // mutable map to immutable map to sorted map ( immutable then  ) but I travled in (  :_* )I taked example in stackoverflow.
       println(getWeekDay(1))
       println(getWeekDay(2))
       printSystemProperties
