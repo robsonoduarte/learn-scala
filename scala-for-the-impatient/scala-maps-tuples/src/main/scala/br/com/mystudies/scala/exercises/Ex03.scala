@@ -8,14 +8,14 @@ import scala.collection.immutable.HashMap
  */
 object Ex03 extends App {
 
-  /*val words = new HashMap[String, Int]
-
-  Source.fromFile("src/main/resources/words.txt").getLines()
-    .foreach(word => {
-     words(word) = words.getOrElse(word, 0) + 1
-  })
-
-
+  var words = new HashMap[String,Int]
+  
+  
+  Source.fromFile("src/main/resources/words.txt").getLines().foreach{ w => 
+    words = words + ( w -> (words.getOrElse(w, 0) + 1))
+  }
+  
+  
   assert(words("java") == 2)
   assert(words("scala") == 2)
   assert(words("perl") == 1)
@@ -23,5 +23,6 @@ object Ex03 extends App {
   assert(words("groovy") == 1)
   assert(words("ruby") == 1)
   assert(words("go") == 2)
-*/
+  
+  
 }
