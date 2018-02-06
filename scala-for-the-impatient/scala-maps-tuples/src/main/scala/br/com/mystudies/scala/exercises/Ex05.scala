@@ -1,7 +1,7 @@
 package br.com.mystudies.scala.exercises
 
 import scala.io.Source
-import scala.collection.JavaConverters
+import scala.collection.JavaConversions.mapAsScalaMap
 
 
 /**
@@ -9,11 +9,23 @@ import scala.collection.JavaConverters
  */
 object Ex05 extends App {
   
-   val words = new java.util.TreeMap[String,Int]
+  
+  
+   val words =  new java.util.TreeMap[String,Int]()
     
    Source.fromFile("src/main/resources/words.txt").getLines().foreach{ w => 
-    words.put(w,(words.getOrDefault(w, 0) + 1))
+    words(w) = (words.getOrElse(w, 0) + 1)
   }
-  
  
+  
+   
+  assert(words("java") == 2)
+  assert(words("scala") == 2)
+  assert(words("perl") == 1)
+  assert(words("python") == 1)
+  assert(words("groovy") == 1)
+  assert(words("ruby") == 1)
+  assert(words("go") == 2)
+ 
+   
 }
