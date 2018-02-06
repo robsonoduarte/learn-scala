@@ -11,17 +11,6 @@ import scala.sys.SystemProperties
 object App {
 
 
-  def getWeekDay(day: Int) = {
-    val weekdays = LinkedHashMap( 1 -> "Monday", 2 -> "Tuesday", 3 -> "Wednesday", 4 -> "Thursday",  5 -> "Friday", 6 -> "Sartuday", 7 -> "Sunday" )
-    weekdays(day)
-  }
-
-
-  def printSystemProperties(){
-	 for((k,v) <- new SystemProperties().toMap){
-	   println(k + " | " + v )
-	 }
-  }
 
 
   def minMax(values: Array[Int]) = {
@@ -61,9 +50,7 @@ object App {
 
 
 
-      println(getWeekDay(1))
-      println(getWeekDay(2))
-      printSystemProperties
+
       println(minMax(Array(2, 1, 4, -10, 3, 5, 8, 100)))
   	  println(lteggt(Array(2, 1, 4, -10, 3, 5, 20, 6 , -15, -8, 8, 100),5))
 
