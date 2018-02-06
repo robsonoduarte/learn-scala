@@ -12,7 +12,7 @@ object Ex05 extends App {
    val words = new java.util.TreeMap[String,Int]
     
    Source.fromFile("src/main/resources/words.txt").getLines().foreach{ w => 
-    words.put(w,  (words.getOrDefault(w, 0) + 1))
+    words.put(w,(words.getOrDefault(w, 0) + 1))
   }
   
  
