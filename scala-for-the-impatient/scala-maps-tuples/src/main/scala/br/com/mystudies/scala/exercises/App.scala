@@ -12,13 +12,6 @@ object App {
 
 
 
-
-  def minMax(values: Array[Int]) = {
-    Map("Max" -> values.max, "Min" -> values.min )
-  }
-
-
-
   def lteggt(values: Array[Int], v:Int) = {
     var lt = 0
     var eg = 0
@@ -48,10 +41,6 @@ object App {
   def main(args : Array[String]) {
 
 
-
-
-
-      println(minMax(Array(2, 1, 4, -10, 3, 5, 8, 100)))
   	  println(lteggt(Array(2, 1, 4, -10, 3, 5, 20, 6 , -15, -8, 8, 100),5))
 
   	   for(x <- "Hello".zip("World")){
