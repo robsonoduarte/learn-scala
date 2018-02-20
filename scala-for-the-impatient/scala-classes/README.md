@@ -1,4 +1,4 @@
 Scala Classes
 =============
 
-**README IN CONSTRUCTION**
+In this project we will learn how to implement classes in Scala, **the topics are:**
