@@ -1,5 +1,11 @@
 package br.com.mystudies.scala.exercises
 
+
+
+/**
+ * Write a function lteqgt(values: Array[Int], v: Int) that returns a triple containing the counts of values less
+ * than v , equal to v , and greater than v .
+ */
 object Ex09 extends App {
   
   
