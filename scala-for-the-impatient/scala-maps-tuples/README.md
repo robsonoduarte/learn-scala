@@ -11,3 +11,4 @@ In this repo, we will learn how to work with Maps and Tuples in Scala, **the top
 * [Interoperating with Java](https://github.com/robsonoduarte/learn-scala/blob/master/scala-for-the-impatient/scala-maps-tuples/src/main/scala/br/com/mystudies/scala/InteroperatingWithJava.scala)
 * [Tuples](https://github.com/robsonoduarte/learn-scala/blob/master/scala-for-the-impatient/scala-maps-tuples/src/main/scala/br/com/mystudies/scala/Tuples.scala)
 * [Zipping](https://github.com/robsonoduarte/learn-scala/blob/master/scala-for-the-impatient/scala-maps-tuples/src/main/scala/br/com/mystudies/scala/Zipping.scala)
+* [Exercises](https://github.com/robsonoduarte/learn-scala/tree/master/scala-for-the-impatient/scala-maps-tuples/src/main/scala/br/com/mystudies/scala/exercises)
