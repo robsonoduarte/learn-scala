@@ -15,8 +15,7 @@ object SimpleClassesAndParameterlessMethods extends App {
   
   // but you can enforce the style without parentheses declaring current without ()  
     myCounter.current_ // Ok
-    //myCounter.current_() //  no compile 
-  
+    //myCounter.current_() //  no compile   
 }
 
 
