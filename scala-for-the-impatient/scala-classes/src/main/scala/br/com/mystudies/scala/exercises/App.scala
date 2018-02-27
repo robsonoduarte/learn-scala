@@ -61,7 +61,6 @@ object App{
     var employee = new Employee()
 
     println("Name: " + employee.name + " Salary: " + employee.salary )
-
   }
 
 }
