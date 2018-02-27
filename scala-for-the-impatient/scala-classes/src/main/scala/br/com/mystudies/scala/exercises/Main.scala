@@ -9,5 +9,4 @@ object Main extends App {
 
   println( time hours )
   println( time minutes )
-
 }
