@@ -13,5 +13,4 @@ class BankAccount {
 	}
 
 	def total = balance
-
 }
