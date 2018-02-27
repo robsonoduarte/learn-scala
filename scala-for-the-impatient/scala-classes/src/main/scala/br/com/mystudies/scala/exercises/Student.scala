@@ -7,5 +7,4 @@ class Student {
   @BeanProperty var id = 0     // and var id: Int
 
   //in Scala because all fields in class must is initialized
-
 }
