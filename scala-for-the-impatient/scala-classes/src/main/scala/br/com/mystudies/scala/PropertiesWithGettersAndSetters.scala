@@ -6,6 +6,9 @@ object PropertiesWithGettersAndSetters extends App {
   
   println(person.age)
   
+  person.age = 21
+  
+  println(person.age)
   
 }
 
