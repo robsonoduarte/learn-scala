@@ -1,6 +1,6 @@
 package br.com.mystudies.scala
 
-object PropertiesWithGettersAndSetters {
+object PropertiesWithGettersAndSetters extends App {
 
   val person = new Person
   
