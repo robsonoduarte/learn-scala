@@ -8,7 +8,16 @@ object PropertiesWithGettersAndSetters extends App {
   
   person.age = 21 // the set method
   
-  println(person.age) 
+  println(person.age)
+  
+  //---------------------------------------------------
+  
+  val privatePerson = new PrivatePerson
+  
+  privatePerson.age = 30
+  privatePerson.age = 21
+  
+  println(privatePerson.age)
   
 }
 
