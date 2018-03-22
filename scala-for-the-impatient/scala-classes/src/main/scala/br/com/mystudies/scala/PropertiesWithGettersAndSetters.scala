@@ -27,3 +27,10 @@ class Person{
     public br.com.mystudies.scala.Person();
   }
 */
+
+
+
+class PrivatePerson{
+  
+}
+
