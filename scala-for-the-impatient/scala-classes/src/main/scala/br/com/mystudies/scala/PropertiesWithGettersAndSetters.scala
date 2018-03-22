@@ -4,4 +4,6 @@ object PropertiesWithGettersAndSetters {
   
 }
 
-
+class Person{
+  var age = 0
+}
