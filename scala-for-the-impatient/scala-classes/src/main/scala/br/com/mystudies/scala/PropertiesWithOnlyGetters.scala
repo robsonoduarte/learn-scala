@@ -8,7 +8,7 @@ object PropertiesWithOnlyGetters extends App {
   
   //message.timeStamp = new Date don't compile no setter method
   
-  
+  print(message.timeStamp)
   
   
 }
