@@ -14,3 +14,13 @@ object PropertiesWithGettersAndSetters extends App {
 class Person{
   var age = 0
 }
+
+/*
+  javap Person.class
+  Compiled from "PropertiesWithGettersAndSetters.scala"
+  public class br.com.mystudies.scala.Person {
+    public int age();
+    public void age_$eq(int);
+    public br.com.mystudies.scala.Person();
+  }
+*/
