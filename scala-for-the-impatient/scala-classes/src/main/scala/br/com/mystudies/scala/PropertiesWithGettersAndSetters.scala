@@ -32,5 +32,12 @@ class Person{
 // you can redefine the getter and setter
 class PrivatePerson{
   
+  private var privateAge = 0;
+  
+  def age = privateAge
+  def age_=(value:Int){
+    if(value > privateAge) privateAge = value
+  }
+    
 }
 
