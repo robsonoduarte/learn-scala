@@ -4,7 +4,7 @@ object PropertiesWithGettersAndSetters extends App {
 
   val person = new Person
   
-  println(person.age)
+  println(person.age) // the get method
   
   person.age = 21
   
