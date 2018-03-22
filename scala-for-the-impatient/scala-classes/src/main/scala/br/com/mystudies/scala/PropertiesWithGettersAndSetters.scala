@@ -6,9 +6,9 @@ object PropertiesWithGettersAndSetters extends App {
   
   println(person.age) // the get method
   
-  person.age = 21
+  person.age = 21 // the set method
   
-  println(person.age)
+  println(person.age) 
   
 }
 
