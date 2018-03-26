@@ -10,7 +10,6 @@ object PropertiesWithOnlyGetters extends App {
   
   print(message.timeStamp)
   
-  
 }
 
 class Message{
