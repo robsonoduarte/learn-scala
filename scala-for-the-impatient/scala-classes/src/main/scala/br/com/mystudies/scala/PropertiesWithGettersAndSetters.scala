@@ -46,7 +46,6 @@ class PrivatePerson{
   def age = privateAge
   def age_=(value:Int){
     if(value > privateAge) privateAge = value
-  }
-    
+  }    
 }
 
