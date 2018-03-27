@@ -2,6 +2,7 @@ package br.com.mystudies.scala.exercises
 
 class BankAccount {
 
+  
 	private var balance = 0.0
 
 	def deposit(value:Double) = {
