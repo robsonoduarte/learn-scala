@@ -12,6 +12,7 @@ object PropertiesWithOnlyGetters extends App {
   
 }
 
+
 class Message{
   val timeStamp = new Date // read-only property
 }
