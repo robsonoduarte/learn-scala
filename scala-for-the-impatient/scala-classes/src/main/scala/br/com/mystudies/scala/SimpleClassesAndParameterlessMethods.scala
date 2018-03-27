@@ -7,7 +7,6 @@ object SimpleClassesAndParameterlessMethods extends App {
   myCounter.increment()
   println(myCounter.current)
 
-  
   // call a parameterless method with our without parentheses
   myCounter.current // Ok
   myCounter.current() // Also Ok 
