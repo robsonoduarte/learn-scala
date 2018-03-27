@@ -27,6 +27,7 @@ class Person{
   var age = 0
 }
 
+
 /*
   javap Person.class
   Compiled from "PropertiesWithGettersAndSetters.scala"
