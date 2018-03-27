@@ -8,7 +8,6 @@ import br.com.mystudies.scala.exercises.Student
 import br.com.mystudies.scala.exercises.BankAccount
 
 
-
 object App{
 
   def main(args : Array[String]) {
