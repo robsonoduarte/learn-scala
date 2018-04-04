@@ -25,4 +25,3 @@ class Counter{
   def current_ = value
 }
 
-
