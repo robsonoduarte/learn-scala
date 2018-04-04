@@ -47,7 +47,7 @@ object App{
 
     // the primary constructor using default arguments
     val person = new Person()
-    println( person.name + " " + person.age)
+  //  println( person.name + " " + person.age)
 
 
     val car1 = new Car("GM", "Corsa")
