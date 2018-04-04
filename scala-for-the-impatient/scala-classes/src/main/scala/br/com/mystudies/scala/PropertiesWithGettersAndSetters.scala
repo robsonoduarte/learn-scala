@@ -38,6 +38,7 @@ class Person{
   }
 */
 
+
 // you can redefine the getter and setter
 class PrivatePerson{
   
@@ -48,6 +49,3 @@ class PrivatePerson{
     if(value > privateAge) privateAge = value
   }    
 }
-
-
-
