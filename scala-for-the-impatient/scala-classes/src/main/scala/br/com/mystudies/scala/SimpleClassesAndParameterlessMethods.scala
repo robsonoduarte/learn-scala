@@ -24,3 +24,5 @@ class Counter{
   def current() = value
   def current_ = value
 }
+
+
