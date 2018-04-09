@@ -18,7 +18,6 @@ object PropertiesWithGettersAndSetters extends App {
   privatePerson.age = 21
   
   println(privatePerson.age)
-  
 }
 
 
