@@ -15,3 +15,11 @@ object PropertiesWithOnlyGetters extends App {
 class Message{
   val timeStamp = new Date // read-only property
 }
+
+
+class Counter{
+  private var value = 0
+  def increment = {value += 1}
+  def current = value
+}
+
