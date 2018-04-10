@@ -17,7 +17,7 @@ class Message{
 }
 
 
-class Counter{
+class Counter2{
   private var value = 0
   def increment = {value += 1}
   def current = value
