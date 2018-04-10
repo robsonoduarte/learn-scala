@@ -8,7 +8,14 @@ object PropertiesWithOnlyGetters extends App {
   
   //message.timeStamp = new Date don't compile no setter method
   
-  print(message.timeStamp)
+  println(message.timeStamp)
+  
+  
+  val counter = new Counter2
+  
+  counter.increment
+  
+  println(counter.current)
   
 }
 
@@ -17,6 +24,7 @@ class Message{
 }
 
 
+// provide a private field and a property getter
 class Counter2{
   private var value = 0
   def increment = {value += 1}
