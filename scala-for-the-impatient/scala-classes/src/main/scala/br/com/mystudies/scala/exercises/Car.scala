@@ -6,5 +6,4 @@ class Car(val manufacturer: String, val modelName: String, val modelYear: Int, v
 
 	def this(manufacturer: String, modelName: String, modelYear: Int) = this(manufacturer,modelName,modelYear,"")
 	
-	
 }
