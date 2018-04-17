@@ -16,7 +16,6 @@ object SimpleClassesAndParameterlessMethods extends App {
     //myCounter.current_() //  no compile   
 }
 
-
 // A class is not declared as public
 class Counter{ 
   private var value = 0 // You must initialize the field
