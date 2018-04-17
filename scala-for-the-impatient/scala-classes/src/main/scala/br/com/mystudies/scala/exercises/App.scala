@@ -54,7 +54,6 @@ object App{
     val car2 = new Car("GM", "Corsa", 20)
     val car3 = new Car("GM", "Corsa", 20, "BMW")
 
-
     // the primary constructor using default arguments again
 
     var employee = new Employee()
