@@ -23,7 +23,6 @@ class Message{
   val timeStamp = new Date // read-only property
 }
 
-
 // provide a private field and a property getter
 class Counter2{
   private var value = 0
