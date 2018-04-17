@@ -37,7 +37,6 @@ class Person{
   }
 */
 
-
 // you can redefine the getter and setter
 class PrivatePerson{
   
