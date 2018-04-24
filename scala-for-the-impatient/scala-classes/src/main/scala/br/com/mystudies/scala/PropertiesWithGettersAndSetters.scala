@@ -41,7 +41,6 @@ class Person{
 class PrivatePerson{
   
   private var privateAge = 0;
- 
   
   def age = privateAge
   def age_=(value:Int){

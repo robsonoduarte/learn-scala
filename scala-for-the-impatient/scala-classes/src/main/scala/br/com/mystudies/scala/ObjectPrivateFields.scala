@@ -1,9 +1,7 @@
 package br.com.mystudies.scala
 
 object ObjectPrivateFields extends App {
-  
-  val counter = new Counter3
-    
+  val counter = new Counter    
 }
 
 class Counter3{

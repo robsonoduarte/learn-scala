@@ -10,7 +10,6 @@ object PropertiesWithOnlyGetters extends App {
   
   println(message.timeStamp)
   
-  
   val counter = new Counter2
   
   counter.increment
