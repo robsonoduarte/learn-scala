@@ -14,20 +14,19 @@ object AuxiliaryConstructors extends App {
 
 
 class Person3{
+  
   private var name = ""
   private var age = 0
   
-  def this(name: String){
-    this()
-    this.name = name
-    
+  def this(name: String){ // auxiliary constructor 1
+    this() // the primary Constructor
+    this.name = name    
   }
   
   
-  def this(name: String, age: Int ){
+  def this(name: String, age: Int ){ // auxiliary constructor 2
     this(name)
     this.age = age
   }
-  
-  
+    
 }
