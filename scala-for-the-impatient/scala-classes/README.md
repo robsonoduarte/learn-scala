@@ -8,6 +8,7 @@ In this project we will learn how to implement classes in Scala, **the topics ar
 * [Properties With Only Getters](https://github.com/robsonoduarte/learn-scala/blob/master/scala-for-the-impatient/scala-classes/src/main/scala/br/com/mystudies/scala/PropertiesWithOnlyGetters.scala)
 * [Object Private Fields](https://github.com/robsonoduarte/learn-scala/blob/master/scala-for-the-impatient/scala-classes/src/main/scala/br/com/mystudies/scala/ObjectPrivateFields.scala)
 * [Beans Properties](https://github.com/robsonoduarte/learn-scala/blob/master/scala-for-the-impatient/scala-classes/src/main/scala/br/com/mystudies/scala/BeanProperties.scala)
+* [Auxiliary Constructors](https://github.com/robsonoduarte/learn-scala/blob/master/scala-for-the-impatient/scala-classes/src/main/scala/br/com/mystudies/scala/AuxiliaryConstructors.scala)
 
 
 
