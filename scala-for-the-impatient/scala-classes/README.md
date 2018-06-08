@@ -10,6 +10,7 @@ In this project we will learn how to implement classes in Scala, **the topics ar
 * [Beans Properties](https://github.com/robsonoduarte/learn-scala/blob/master/scala-for-the-impatient/scala-classes/src/main/scala/br/com/mystudies/scala/BeanProperties.scala)
 * [Auxiliary Constructors](https://github.com/robsonoduarte/learn-scala/blob/master/scala-for-the-impatient/scala-classes/src/main/scala/br/com/mystudies/scala/AuxiliaryConstructors.scala)
 * [The Primary Constructor](https://github.com/robsonoduarte/learn-scala/blob/master/scala-for-the-impatient/scala-classes/src/main/scala/br/com/mystudies/scala/ThePrimaryConstructor.scala)
+* [Nested Classes](https://github.com/robsonoduarte/learn-scala/blob/master/scala-for-the-impatient/scala-classes/src/main/scala/br/com/mystudies/scala/NestedClasses.scala)
 
 
 
