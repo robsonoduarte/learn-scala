@@ -9,7 +9,8 @@ object ThePrimaryConstructor extends App {
 
 
 
-class Person4(private val name: String, private val age: Int ){ 
+class Person4(private val name: String, private val age: Int ){ // the primary constructor 
+  // all statements in the class definition will executed
   println("Just constructed another person")
   def description = s"${name} is ${age} years old"
 }
