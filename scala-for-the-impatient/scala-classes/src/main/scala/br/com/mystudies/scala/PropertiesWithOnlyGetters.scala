@@ -10,22 +10,24 @@ object PropertiesWithOnlyGetters extends App {
   
   println(message.timeStamp)
   
-  val counter = new Counter2
+  val counter = new Counter
   
   counter.increment
   
   println(counter.current)
+
+  class Message{
+    val timeStamp = new Date // read-only property
+  }
+
+// provide a private field and a property getter
+  class Counter{
+    private var value = 0
+    def increment = {value += 1}
+    def current = value
+  }
   
 }
 
-class Message{
-  val timeStamp = new Date // read-only property
-}
 
-// provide a private field and a property getter
-class Counter2{
-  private var value = 0
-  def increment = {value += 1}
-  def current = value
-}
 
