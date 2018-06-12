@@ -4,7 +4,7 @@ import scala.beans.BeanProperty
 
 object BeanProperties extends App {
   
-  var person = new Person2
+  var person = new Person
   
   // Generate four methods
   person.name = "Robson"
@@ -13,8 +13,9 @@ object BeanProperties extends App {
   println(person.name)
   println(person.getName())
   
-}
-
-class Person2 {
-  @BeanProperty var name: String = _
+  class Person{
+	  @BeanProperty var name: String = _
+  }
+  
+  
 }
