@@ -21,7 +21,6 @@ object Ex02 extends App {
   }
   
   
-  
   val myBA = new BankAccount
   myBA.deposit(100)
   myBA.withdrow(20)
