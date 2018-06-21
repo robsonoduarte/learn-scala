@@ -1,8 +1,8 @@
 package br.com.mystudies.scala
 
+
 import br.com.mystudies.scala.exercises.Employee
 import br.com.mystudies.scala.exercises.Car
-import br.com.mystudies.scala.exercises.Time
 import br.com.mystudies.scala.exercises.Student
 
 
@@ -12,9 +12,6 @@ object App{
 
 	
 
-    val time1 = new Time(20,21,24)
-    val time2 = new Time(20,21,23)
-    println(time1 before time2)
 
 
     val student = new Student
