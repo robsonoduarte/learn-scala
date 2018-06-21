@@ -17,5 +17,4 @@ object BeanProperties extends App {
 	  @BeanProperty var name: String = _
   }
   
-  
 }
