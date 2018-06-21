@@ -8,11 +8,18 @@ package br.com.mystudies.scala.exercises
  */
 object Ex03 extends App {
   
-  class Time( val hours:Int, val minutes:Int) {
-  	def before(other: Time) = {
-  		hours >= other.hours && minutes >= other.minutes
-  	}
-  }
+	class Time( val hours:Int, val minutes:Int) {
+		def before(other: Time) = {
+				hours < other.hours || ( hours == other.hours &&  minutes < other.minutes)
+		}
+	}
+
+	
+  val t1 = new Time(20,50)
+  val t2 = new Time(20,49) 
   
+  
+  
+  assert( t2.before(t1) == true) 
   
 }
