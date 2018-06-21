@@ -9,8 +9,7 @@ object AuxiliaryConstructors extends App {
   println(p1)
   println(p2)
   println(p3)
-
-  
+ 
   class Person{
     
     private var name = ""
