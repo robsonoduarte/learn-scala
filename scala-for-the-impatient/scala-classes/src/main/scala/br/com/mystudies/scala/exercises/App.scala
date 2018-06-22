@@ -3,7 +3,6 @@ package br.com.mystudies.scala
 
 import br.com.mystudies.scala.exercises.Employee
 import br.com.mystudies.scala.exercises.Car
-import br.com.mystudies.scala.exercises.Student
 
 
 object App{
@@ -14,19 +13,7 @@ object App{
 
 
 
-    val student = new Student
 
-    // java bean properties convention
-
-    student.setId(1)
-    student.setName("Robson Duarte")
-    println( student.getId() + " " + student.getName())
-
-    // scala methods
-
-    student.id = 2
-    student.name = "robsonoduarte"
-    println( student.id + " " + student.name)
 
 
     // the primary constructor using default arguments
