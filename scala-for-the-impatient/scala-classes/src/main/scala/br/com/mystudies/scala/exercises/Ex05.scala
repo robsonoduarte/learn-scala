@@ -16,18 +16,18 @@ object Ex05 extends App {
   class Student(@BeanProperty var name: String, @BeanProperty var id: Long)
   
   /* javap =>    
-    Scala generate the methods getName, setName, getId, setId    
-    public class br.com.mystudies.scala.exercises.Student {
-    public java.lang.String name();
-    public void name_$eq(java.lang.String);
-    public void setName(java.lang.String);
-    public int id();
-    public void id_$eq(int);
-    public void setId(int);
-    public java.lang.String getName();
-    public int getId();
-    public br.com.mystudies.scala.exercises.Student();
-		}    
+      Scala generate the methods getName, setName, getId, setId    
+      public class br.com.mystudies.scala.exercises.Student {
+      public java.lang.String name();
+      public void name_$eq(java.lang.String);
+      public void setName(java.lang.String);
+      public int id();
+      public void id_$eq(int);
+      public void setId(int);
+      public java.lang.String getName();
+      public int getId();
+      public br.com.mystudies.scala.exercises.Student();
+  		}    
    */
   
   
