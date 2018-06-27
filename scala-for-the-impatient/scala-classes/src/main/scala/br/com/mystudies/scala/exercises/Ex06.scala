@@ -6,4 +6,11 @@ package br.com.mystudies.scala.exercises
  */
 object Ex06 extends App {
   
+  class Person(var age:Int){
+    if(age < 0 ) age = 0
+  }
+    
+  val person = new Person(-2)
+    
+  assert(person.age == 0)  
 }
