@@ -13,4 +13,5 @@ object Ex06 extends App {
   val person = new Person(-2)
     
   assert(person.age == 0)  
+  
 }
