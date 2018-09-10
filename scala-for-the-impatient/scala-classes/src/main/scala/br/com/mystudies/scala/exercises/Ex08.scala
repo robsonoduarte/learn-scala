@@ -8,6 +8,4 @@ package br.com.mystudies.scala.exercises
  * can also be specified in the constructor. If not, the model year is set to -1 and the license plate
  * to the empty string. Which constructor? Why?
  */
-object Ex08 extends App {
-
-}
+object Ex08 extends App {}
