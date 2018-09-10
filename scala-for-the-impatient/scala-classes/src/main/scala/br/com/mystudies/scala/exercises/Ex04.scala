@@ -17,7 +17,6 @@ object Ex04 extends App {
   val t1 = new Time(10,20)
   val t2 = new Time(20,20)
 
-
   assert(t1 before t2)
 
 }
