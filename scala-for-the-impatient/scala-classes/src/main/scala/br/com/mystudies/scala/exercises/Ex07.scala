@@ -20,4 +20,5 @@ object Ex07 extends App {
   assert(person.firstName == "Robson" )
   assert(person.lastName == "Duarte")
 
+
 }
