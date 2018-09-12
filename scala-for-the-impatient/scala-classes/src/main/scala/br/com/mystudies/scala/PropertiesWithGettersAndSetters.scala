@@ -3,20 +3,20 @@ package br.com.mystudies.scala
 object PropertiesWithGettersAndSetters extends App {
 
   val person = new Person
-  
+
   println(person.age) // the get method
-  
+
   person.age = 21 // the set method
-  
+
   println(person.age)
-  
+
   //---------------------------------------------------
-  
+
   val privatePerson = new PrivatePerson
-  
+
   privatePerson.age = 30
   privatePerson.age = 21
-  
+
   println(privatePerson.age)
 }
 
@@ -39,11 +39,12 @@ class Person{
 
 // you can redefine the getter and setter
 class PrivatePerson{
-  
+
   private var privateAge = 0;
-  
+
   def age = privateAge
   def age_=(value:Int){
     if(value > privateAge) privateAge = value
-  }    
+  }
+
 }
