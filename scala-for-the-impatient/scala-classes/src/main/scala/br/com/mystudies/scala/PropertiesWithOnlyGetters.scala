@@ -3,17 +3,17 @@ package br.com.mystudies.scala
 import java.util.Date
 
 object PropertiesWithOnlyGetters extends App {
-  
+
   val message = new Message
-  
+
   //message.timeStamp = new Date don't compile no setter method
-  
+
   println(message.timeStamp)
-  
+
   val counter = new Counter
-  
+
   counter.increment
-  
+
   println(counter.current)
 
   class Message{
@@ -26,7 +26,6 @@ object PropertiesWithOnlyGetters extends App {
     def increment = {value += 1}
     def current = value
   }
-  
 }
 
 
