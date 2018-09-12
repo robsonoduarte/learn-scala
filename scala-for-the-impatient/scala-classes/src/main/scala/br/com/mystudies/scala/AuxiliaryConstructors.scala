@@ -27,7 +27,6 @@ object AuxiliaryConstructors extends App {
     }
 
   }
-
 }
 
 
