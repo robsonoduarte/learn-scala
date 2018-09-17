@@ -12,7 +12,6 @@ import scala.beans.BeanProperty
 
 object Ex05 extends App {
 
-
   class Student(@BeanProperty var name: String, @BeanProperty var id: Long)
 
   /* javap =>
