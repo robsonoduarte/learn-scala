@@ -19,4 +19,5 @@ object Ex04 extends App {
 
   assert(t1 before t2)
 
+
 }
