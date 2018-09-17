@@ -20,4 +20,5 @@ object Ex03 extends App {
 
   assert( t2.before(t1) == true)
 
+
 }
