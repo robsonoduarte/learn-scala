@@ -14,7 +14,6 @@ class NestedClasses {
 
   val barney = myFace.join("Barney")
   //fred.contacts += barney -> No can't add a myFace.Member to a buffer o chatter.Members elements
-
 }
 
 /*
