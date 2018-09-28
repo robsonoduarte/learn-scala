@@ -20,7 +20,6 @@ object AuxiliaryConstructors extends App {
       this.name = name
     }
 
-
     def this(name: String, age: Int ){ // auxiliary constructor 2
       this(name)
       this.age = age
