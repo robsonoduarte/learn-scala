@@ -23,5 +23,6 @@ class Counter{
   def increment() = value += 1 // Methods are public by default
   def current() = value
   def current_ = value
+
 }
 
