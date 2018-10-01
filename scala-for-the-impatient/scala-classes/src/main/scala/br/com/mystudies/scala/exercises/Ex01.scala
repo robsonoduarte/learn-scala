@@ -19,5 +19,4 @@ object Ex01 extends App {
     }
     def current = value
   }
-
 }
