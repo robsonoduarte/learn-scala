@@ -14,7 +14,6 @@ object Ex03 extends App {
 		}
 	}
 
-
   val t1 = new Time(20,50)
   val t2 = new Time(20,49)
 
