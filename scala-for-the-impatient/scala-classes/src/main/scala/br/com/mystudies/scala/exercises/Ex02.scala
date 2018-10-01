@@ -27,5 +27,4 @@ object Ex02 extends App {
 
   assert( myBA.balance == 80.0 )
 
-
 }
