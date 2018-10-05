@@ -24,7 +24,6 @@ object AuxiliaryConstructors extends App {
       this(name)
       this.age = age
     }
-
   }
 }
 
