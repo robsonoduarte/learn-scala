@@ -11,7 +11,6 @@ object AuxiliaryConstructors extends App {
   println(p3)
 
   class Person{
-
     private var name = ""
     private var age = 0
 
