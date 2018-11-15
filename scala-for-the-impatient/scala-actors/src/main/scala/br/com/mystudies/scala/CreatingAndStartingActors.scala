@@ -1,4 +1,4 @@
-package br.com.mystudies.scala.exercises
+package br.com.mystudies.scala
 
 import scala.actors.Actor
 import scala.actors.Actor._
