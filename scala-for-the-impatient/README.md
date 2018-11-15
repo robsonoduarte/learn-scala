@@ -6,6 +6,7 @@ In this repo we will show to developers what Scala can do and how to do it, **th
 * [Working with Arrays](https://github.com/robsonoduarte/learn-scala/tree/master/scala-for-the-impatient/scala-working-with-arrays)
 * [Maps and Tuples](https://github.com/robsonoduarte/learn-scala/tree/master/scala-for-the-impatient/scala-maps-tuples)
 * [Classes](https://github.com/robsonoduarte/learn-scala/tree/master/scala-for-the-impatient/scala-classes)
+* [Actors](https://github.com/robsonoduarte/learn-scala/tree/master/scala-for-the-impatient/scala-actors)
 
 
 *All projects in here repo are based in the examples of this book:*
