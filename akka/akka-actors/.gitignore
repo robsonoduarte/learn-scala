@@ -1,0 +1,10 @@
+/bin/
+/target/
+/project/target/
+/project/project/
+/.cache-main
+/.classpath
+/.project
+/.settings/
+/symbols.txt
+/stock2.xml
